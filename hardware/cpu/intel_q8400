@@ -1,0 +1,12 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+ -march=core2 -mtune=core2 \
+ -mcx16 -msahf -msse4.1 \
+ --param l1-cache-size=32 \
+ --param l1-cache-line-size=64 \
+ --param l2-cache-size=2048"
+
+CXXFLAGS="${CFLAGS}"
+
+USE="${USE} mmx mmxext sse sse2 sse3 ssse3 sse4_1 threads smp"
+
+MAKEOPTS="-j4"

@@ -1,0 +1,4 @@
+app-doc/doxygen dot doc latex
+app-text/texlive extra
+app-text/texlive-core xetex
+media-libs/gd jpeg fontconfig

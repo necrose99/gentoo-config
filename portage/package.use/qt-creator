@@ -1,0 +1,7 @@
+dev-libs/libpcre pcre16
+dev-qt/qtcore:5 icu
+dev-qt/qt-creator autotools cmake doc examples git subversion valgrind android fakevim
+dev-qt/qt-creator baremetal clang ios python webkit winrt
+dev-qt/qthelp doc
+sys-devel/gdb python
+x11-libs/libxcb xkb

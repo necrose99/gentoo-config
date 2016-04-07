@@ -1,0 +1,2 @@
+net-im/skype -pulseaudio apulse
+media-sound/apulse abi_x86_32

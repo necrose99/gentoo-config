@@ -1,0 +1,38 @@
+CHOST="x86_64-pc-linux-gnu"
+
+USE="${USE} -ipv6 -gnome -python -perl -acl -pcre -sqlite -fortran -R \
+    -geoloc -libav \
+    pch nsplugin webkit declarative sql sqlite truetype libnotify \
+    spell aspell xscreensaver xcomposite xinerama bluray dvd xv xvmc \
+    openal opengl gnutls vaapi gpm"
+
+# for KDE
+USE="${USE} X dbus consolekit policykit kde qt4 qt3support semantic-desktop avahi zeroconf"
+
+# VIDEO codecs
+USE="${USE} mpeg x264 xvid theora"
+
+# AUDIO codecs
+USE="${USE} a52 mp3 ogg vorbis"
+
+# IMAGE types
+USE="${USE} png mng svg jpeg"
+
+ACCEPT_LICENSE="*"
+
+LINGUAS="en_GB ru uk uk_UA"
+
+GENTOO_MIRRORS="http://portage.org.ua/"
+
+# only 2.7 python
+PYTHON_TARGETS="python2_7 python3_4"
+
+# HARDWARE
+source /etc/gentoo-config/hardware/input/generic
+source /etc/gentoo-config/hardware/video/generic
+
+USE="${USE} acpi wifi alsa lm_sensors cups"
+
+PORTDIR_OVERLAY="/usr/local/portage/"
+
+source /var/lib/layman/make.conf

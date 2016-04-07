@@ -1,0 +1,5 @@
+dev-libs/libsecp256k1
+=dev-libs/leveldb-1.15.0-r1
+net-p2p/darkcoin-qt
+net-p2p/bitcoin-qt
+net-misc/sgminer

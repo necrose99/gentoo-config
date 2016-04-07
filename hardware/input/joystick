@@ -1,0 +1,3 @@
+INPUT_DEVICES="${INPUT_DEVICES} joystick"
+
+USE="${USE} joystick"

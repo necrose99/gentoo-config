@@ -1,0 +1,12 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+ -march=amdfam10 -mtune=amdfam10 \
+ -mcx16 -msahf -mno-movbe -mno-aes -mno-pclmul -mpopcnt -mabm -mno-lwp -mno-fma -mno-fma4 -mno-xop -mno-bmi -mno-tbm -mno-avx -mno-sse4.2 -mno-sse4.1 \
+ --param l1-cache-size=64 \
+ --param l1-cache-line-size=64 \
+ --param l2-cache-size=1024"
+
+CXXFLAGS="${CFLAGS}"
+
+USE="${USE} mmx mmxext sse sse2 sse4a 3dnow 3dnowext threads"
+
+MAKEOPTS="-j1"

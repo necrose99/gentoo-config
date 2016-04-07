@@ -1,0 +1,3 @@
+dev-libs/jansson doc
+www-servers/apache apache2_mpms_itk -threads
+app-eselect/eselect-php apache2

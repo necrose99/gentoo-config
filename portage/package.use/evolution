@@ -1,0 +1,4 @@
+app-crypt/pinentry gnome-keyring
+gnome-extra/evolution-data-server kerberos ldap
+mail-client/evolution kerberos ldap
+app-crypt/gcr gtk

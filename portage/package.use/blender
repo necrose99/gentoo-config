@@ -1,0 +1,4 @@
+media-gfx/blender ffmpeg blender-game
+virtual/ffmpeg x264 mp3 theora
+media-video/ffmpeg x264 mp3 theora
+

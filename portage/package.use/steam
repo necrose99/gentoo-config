@@ -1,0 +1,6 @@
+www-plugins/adobe-flash 32bit abi_x86_32
+media-libs/libsdl abi_x86_32
+games-util/steam-client-meta flash
+games-util/steam-meta steamruntime
+games-util/steam-launcher steamruntime
+games-util/steam-games-meta s3tc

@@ -1,0 +1,16 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+ -march=armv7-a -mtune=cortex-a7 \
+ -mfloat-abi=hard -mfpu=neon-vfpv4 \
+ -marm -mthumb-interwork \
+"
+
+CXXFLAGS="${CFLAGS}"
+
+USE="${USE} \
+ armvfp \
+ neon \
+ smp \
+ threads \
+"
+
+MAKEOPTS="-j4"

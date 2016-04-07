@@ -1,0 +1,3 @@
+USE="${USE} nvidia vdpau cuda opencl uvm"
+
+VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau nv"

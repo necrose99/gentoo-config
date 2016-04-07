@@ -1,0 +1,7 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer"
+
+CXXFLAGS="${CFLAGS}"
+
+USE="${USE} mmx sse threads smp"
+
+MAKEOPTS="-j2"

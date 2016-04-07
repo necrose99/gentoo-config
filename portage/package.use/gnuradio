@@ -1,0 +1,4 @@
+net-wireless/gnuradio atsc examples fec grc sdl vocoder wxwidgets wavelet trellis performance-counters pager noaa log fcd dtv doc channels
+sys-devel/gcc fortran
+dev-python/numpy lapack
+x11-libs/wxGTK tiff

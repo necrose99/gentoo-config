@@ -1,0 +1,2 @@
+app-emulation/aqemu kvm vnc
+app-emulation/qemu sdl gtk usb lzo

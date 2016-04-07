@@ -1,0 +1,7 @@
+media-libs/libpng static-libs apng
+virtual/jpeg static-libs
+app-arch/bzip2 static-libs
+media-libs/freetype static-libs
+media-libs/libmng static-libs
+media-libs/lcms static-libs
+media-libs/libjpeg-turbo static-libs
