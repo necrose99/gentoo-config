@@ -1,3 +1,4 @@
+media-gfx/imagemagick xml
 app-crypt/qca openssl
 app-office/akonadi-server soprano
 dev-python/PyQt4 script
@@ -10,6 +11,6 @@ kde-apps/kdemultimedia-meta mplayer
 kde-apps/kdenetwork-meta ppp
 kde-apps/kde-meta kdepim
 media-gfx/exiv2 xmp
-media-libs/phonon -gstreamer vlc
+media-libs/phonon gstreamer
 sys-fs/udev gudev hwdb
 virtual/udev gudev hwdb
