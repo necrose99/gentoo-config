@@ -1,7 +1,7 @@
 CHOST="x86_64-pc-linux-gnu"
 
 USE="${USE} -ipv6 -gnome -python -perl -acl -pcre -sqlite -fortran -R \
-    -geoloc -libav \
+    -geoloc -libav -xattr \
     pch nsplugin webkit declarative sql sqlite truetype libnotify \
     spell aspell xscreensaver xcomposite xinerama bluray dvd xv xvmc \
     openal opengl gnutls vaapi gpm"
