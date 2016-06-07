@@ -1,4 +1,4 @@
-app-emulation/wine -mp3 -opencl
+app-emulation/wine -mp3 -opencl -vaapi
 dev-libs/elfutils static-libs
 sys-devel/gettext abi_x86_32
 dev-libs/libxslt abi_x86_32
