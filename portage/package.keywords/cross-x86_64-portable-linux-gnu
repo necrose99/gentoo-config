@@ -1,5 +1,0 @@
-cross-x86_64-portable-linux-gnu/binutils * ~* **
-cross-x86_64-portable-linux-gnu/gcc amd64
-cross-x86_64-portable-linux-gnu/linux-headers amd64
-cross-x86_64-portable-linux-gnu/glibc * ~* **
-cross-x86_64-portable-linux-gnu/gdb amd64 ~amd64

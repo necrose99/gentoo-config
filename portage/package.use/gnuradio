@@ -2,3 +2,4 @@ net-wireless/gnuradio atsc examples fec grc sdl vocoder wxwidgets wavelet trelli
 sys-devel/gcc fortran
 dev-python/numpy lapack
 x11-libs/wxGTK tiff
+dev-python/PyQt4 compat

@@ -1,3 +1,2 @@
-media-libs/mlt xml sdl qt4 ffmpeg melt
+media-libs/mlt xml sdl qt4 ffmpeg melt kdenlive
 virtual/ffmpeg sdl
-media-libs/mlt kdenlive
