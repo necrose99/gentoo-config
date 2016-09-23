@@ -1,2 +1,3 @@
 app-emulation/qemu gtk2 sdl2 spice static-user
 dev-libs/glib static-libs
+dev-libs/libpcre static-libs

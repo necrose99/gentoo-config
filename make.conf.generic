@@ -7,7 +7,7 @@ USE="${USE} -ipv6 -gnome -python -perl -acl -pcre -sqlite -fortran -R \
     openal opengl gnutls vaapi gpm"
 
 # for KDE
-USE="${USE} X dbus consolekit policykit kde qt4 qt3support semantic-desktop avahi zeroconf"
+USE="${USE} X dbus consolekit policykit semantic-desktop avahi zeroconf"
 
 # VIDEO codecs
 USE="${USE} mpeg x264 xvid theora"
@@ -21,6 +21,7 @@ USE="${USE} png mng svg jpeg"
 ACCEPT_LICENSE="*"
 
 LINGUAS="en_GB ru uk uk_UA"
+L10N="en_GB ru uk uk_UA"
 
 GENTOO_MIRRORS="http://portage.org.ua/"
 

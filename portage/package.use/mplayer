@@ -1,1 +1,2 @@
 media-video/mplayer fbcon bidi speex ftp
+media-video/smplayer -qt4

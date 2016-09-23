@@ -1,2 +1,3 @@
 media-libs/mesa g3dvl xa -opencl
 sys-devel/llvm clang video_cards_radeon
+sci-libs/gdal -opencl
