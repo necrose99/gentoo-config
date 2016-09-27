@@ -9,4 +9,5 @@ CXXFLAGS="${CFLAGS}"
 USE="${USE} threads smp"
 CPU_FLAGS_X86="mmx mmxext sse sse2 sse3 ssse3"
 
-MAKEOPTS="-j2"
+MAKEOPTS="--jobs 3 --load-average 1.8"
+EMERGE_DEFAULT_OPTS="--jobs 2 --load-average 1.8"

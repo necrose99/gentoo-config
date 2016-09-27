@@ -9,4 +9,5 @@ CXXFLAGS="${CFLAGS}"
 CPU_FLAGS_X86="aes avx fma3 fma4 mmx mmxext popcnt sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3 xop"
 USE="${USE} threads smp"
 
-MAKEOPTS="-j8"
+MAKEOPTS="--jobs 9 --load-average 7.2"
+EMERGE_DEFAULT_OPTS="--jobs 8 --load-average 7.2"

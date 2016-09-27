@@ -9,4 +9,5 @@ CXXFLAGS="${CFLAGS}"
 
 USE="${USE} mmx mmxext sse sse2 sse3 3dnow 3dnowext threads smp"
 
-MAKEOPTS="-j2"
+MAKEOPTS="--jobs 3 --load-average 1.8"
+EMERGE_DEFAULT_OPTS="--jobs 2 --load-average 1.8"

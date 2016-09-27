@@ -9,4 +9,5 @@ CXXFLAGS="${CFLAGS}"
 
 USE="${USE} mmx sse sse2 ssse3 sse4_1 threads smp"
 
-MAKEOPTS="-j4"
+MAKEOPTS="--jobs 5 --load-average 3.6"
+EMERGE_DEFAULT_OPTS="--jobs 4 --load-average 3.6"
