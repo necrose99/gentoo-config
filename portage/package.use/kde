@@ -27,3 +27,4 @@ dev-qt/qtwebkit:4 -gstreamer
 kde-plasma/plasma-desktop legacy-systray gtk2 gtk3 qt4
 dev-libs/libdbusmenu gtk3
 kde-plasma/plasma-workspace -geolocation
+net-libs/webkit-gtk -geolocation
