@@ -1,6 +1,6 @@
 media-gfx/imagemagick xml
 app-crypt/qca openssl
-app-office/akonadi-server soprano
+kde-apps/akonadi soprano
 dev-python/PyQt4 script
 dev-qt/qtsql mysql
 dev-qt/qtsql sqlite
@@ -30,3 +30,5 @@ kde-plasma/plasma-workspace -geolocation
 net-libs/webkit-gtk -geolocation
 
 kde-plasma/powerdevil -wireless
+
+kde-apps/spectacle share

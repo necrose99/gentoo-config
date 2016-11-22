@@ -1,4 +1,4 @@
-media-libs/libvpx postproc
+media-libs/libvpx postproc svc
 dev-libs/libxml2 icu
 media-libs/mesa gles2
 media-video/ffmpeg opus
