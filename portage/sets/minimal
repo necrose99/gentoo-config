@@ -3,7 +3,6 @@ app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
 app-editors/vim
-app-eselect/eselect-bashcomp
 app-misc/beep
 app-misc/colordiff
 app-misc/mc
@@ -15,6 +14,7 @@ app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
 app-portage/pfl
+app-shells/bash-completion
 app-text/antiword
 app-text/odt2txt
 app-text/tree
@@ -29,6 +29,7 @@ net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dialup/minicom
+net-dialup/picocom
 net-dns/avahi
 net-dns/bind-tools
 net-fs/nfs-utils
