@@ -1,5 +1,0 @@
-cross-x86_64-portable-linux-gnu/binutils -selinux -multilib
-cross-x86_64-portable-linux-gnu/linux-headers -selinux -multilib
-cross-x86_64-portable-linux-gnu/glibc -selinux -multilib
-cross-x86_64-portable-linux-gnu/gcc -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib
-cross-x86_64-portable-linux-gnu/gdb -selinux -multilib

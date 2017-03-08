@@ -5,6 +5,7 @@ app-admin/syslog-ng
 app-editors/vim
 app-misc/beep
 app-misc/colordiff
+app-misc/grc
 app-misc/mc
 app-misc/screen
 app-portage/cpuid2cpuflags
@@ -71,6 +72,7 @@ sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/cpupower
+sys-process/atop
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
