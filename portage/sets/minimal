@@ -40,10 +40,10 @@ net-misc/bridge-utils
 net-misc/dhcp
 net-misc/iperf:3
 net-misc/ntp
-net-misc/openvpn
 net-misc/redir
 net-misc/telnet-bsd
 net-misc/whois
+net-vpn/openvpn
 net-wireless/iw
 net-wireless/rfkill
 net-wireless/wireless-tools
