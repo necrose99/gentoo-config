@@ -26,6 +26,7 @@ mail-client/mailx
 media-fonts/terminus-font
 net-analyzer/gnu-netcat
 net-analyzer/iftop
+net-analyzer/mtr
 net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
@@ -36,6 +37,7 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-ftp/ftp
 net-ftp/vsftpd
+net-misc/axel
 net-misc/bridge-utils
 net-misc/dhcp
 net-misc/iperf:3

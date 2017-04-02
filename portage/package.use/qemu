@@ -1,3 +1,17 @@
 app-emulation/qemu gtk2 sdl2 spice static-user
+app-emulation/spice static-libs
 dev-libs/glib static-libs
+dev-libs/libaio static-libs
 dev-libs/libpcre static-libs
+dev-libs/lzo static-libs
+dev-libs/nettle static-libs
+media-libs/celt static-libs
+media-libs/libsdl2 static-libs
+media-libs/opus static-libs
+net-libs/gnutls static-libs
+net-misc/curl static-libs
+sys-apps/dtc static-libs
+sys-libs/libcap-ng static-libs
+sys-libs/libseccomp static-libs
+sys-libs/ncurses static-libs
+x11-libs/pixman static-libs
