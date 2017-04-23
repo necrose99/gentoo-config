@@ -2,6 +2,7 @@ app-admin/hddtemp
 app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
+app-admin/sysstat
 app-editors/vim
 app-misc/beep
 app-misc/colordiff
