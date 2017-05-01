@@ -17,8 +17,6 @@ virtual/udev gudev hwdb
 
 
 
->=dev-qt/qtcore-4.8.6-r2:4 -qt3support
->=dev-qt/qtsql-4.8.6-r1:4 -qt3support
 >=dev-qt/qtwebkit-5.5.1-r1 printsupport
 dev-python/PyQt4 -kde -phonon
 kde-plasma/plasma-meta mediacenter sdk
