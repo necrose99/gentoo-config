@@ -1,2 +1,3 @@
+dev-qt/qtwebkit:4 -exceptions
 net-im/skype -pulseaudio apulse
 media-sound/apulse abi_x86_32
