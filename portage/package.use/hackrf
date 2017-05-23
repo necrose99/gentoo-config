@@ -1,0 +1,2 @@
+net-wireless/urh hackrf
+net-wireless/gr-osmosdr hackrf python iqbalance
