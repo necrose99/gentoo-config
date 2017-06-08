@@ -1,7 +1,12 @@
 net-libs/libhackrf
 net-libs/libosmo-dsp
+net-voip/yate
+net-wireless/bladerf
+net-wireless/bladerf-firmware
+net-wireless/bladerf-fpga
 net-wireless/gqrx
 net-wireless/gr-iqbal
 net-wireless/gr-osmosdr
 net-wireless/hackrf-tools
 net-wireless/urh
+net-wireless/yatebts
