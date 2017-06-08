@@ -1,2 +1,4 @@
 net-wireless/urh hackrf
-net-wireless/gr-osmosdr hackrf python iqbalance
+net-wireless/gr-osmosdr hackrf python iqbalance bladerf
+net-wireless/gqrx portaudio
+net-wireless/bladerf-fpga x40
