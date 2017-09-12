@@ -26,9 +26,11 @@ games-rpg/nwn
 games-rpg/nwn-cep
 games-simulation/flightgear
 games-simulation/openttd
+games-sports/speed-dreams
 games-sports/xmoto
 games-strategy/openra
 games-strategy/ufo-ai
+games-strategy/vcmi
 games-strategy/warzone2100
 games-strategy/wesnoth
 games-util/steam-meta

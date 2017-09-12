@@ -1,4 +1,5 @@
 media-sound/apulse
-net-im/skype
 media-sound/skype-call-recorder
+net-im/skype
+net-im/skypeforlinux
 net-im/skypetab-ng **
