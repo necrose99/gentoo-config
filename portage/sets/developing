@@ -1,7 +1,3 @@
-media-sound/sox
-sys-fs/squashfs-tools
-x11-terms/xterm
-kde-apps/kcachegrind
 app-arch/upx-ucl
 app-benchmarks/bootchart2
 app-doc/doxygen
@@ -17,6 +13,7 @@ dev-embedded/openocd
 dev-embedded/u-boot-tools
 dev-qt/qt-creator
 dev-qt/qt-meta
+dev-util/abi-compliance-checker
 dev-util/cgdb
 dev-util/codeblocks
 dev-util/cppcheck
@@ -33,14 +30,18 @@ dev-vcs/gitstats
 dev-vcs/kdesvn
 dev-vcs/repo
 dev-vcs/tig
+kde-apps/kcachegrind
 kde-apps/kompare
 kde-misc/kdiff3
 media-gfx/fbgrab
 media-gfx/plantuml
+media-sound/sox
 net-ftp/tftp-hpa
 sys-apps/fakeroot
 sys-boot/syslinux
 sys-devel/crossdev
 sys-devel/distcc
+sys-fs/squashfs-tools
 sys-kernel/linux-docs
 sys-power/iasl
+x11-terms/xterm
