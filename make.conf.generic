@@ -23,7 +23,7 @@ ACCEPT_LICENSE="*"
 LINGUAS="en_GB ru uk uk_UA"
 L10N="en_GB ru uk uk_UA"
 
-GENTOO_MIRRORS="http://portage.org.ua/"
+GENTOO_MIRRORS="https://gentoo.in.ua/"
 
 # only 2.7 python
 PYTHON_TARGETS="python2_7 python3_4"
