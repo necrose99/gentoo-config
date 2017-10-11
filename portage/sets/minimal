@@ -3,6 +3,8 @@ app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
+app-arch/pbzip2
+app-arch/pigz
 app-editors/vim
 app-misc/beep
 app-misc/colordiff
