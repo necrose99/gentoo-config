@@ -3,3 +3,4 @@ sys-devel/gcc fortran
 dev-python/numpy lapack
 x11-libs/wxGTK tiff
 dev-python/PyQt4 compat
+dev-python/matplotlib -qt5
