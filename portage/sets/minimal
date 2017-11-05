@@ -1,5 +1,6 @@
 app-admin/hddtemp
 app-admin/logrotate
+app-admin/mcelog
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
@@ -11,6 +12,7 @@ app-misc/colordiff
 app-misc/grc
 app-misc/mc
 app-misc/screen
+app-misc/sl
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
