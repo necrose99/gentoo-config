@@ -1,2 +1,2 @@
 dev-lang/php gd apache2 mysql mysqli pdo -threads
-app-admin/eselect-php apache2
+app-eselect/eselect-php apache2

@@ -1,8 +1,0 @@
-app-text/calibre
-app-text/podofo
-dev-libs/dbus-glib
-dev-python/apsw
-dev-python/dbus-python
-dev-python/pygments
-dev-python/python-dateutil
-virtual/podofo-build
