@@ -1,2 +1,10 @@
-# ignore crossdev files
-cross-*
+/*/cross-*
+/bashrc
+/categories
+/make.conf
+/make.profile
+/patches
+/profile
+/repo.postsync.d
+/repos.conf/layman.conf
+/savedconfig

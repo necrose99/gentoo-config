@@ -1,3 +1,0 @@
-net-dialup/ppp ipv6
-net-dns/avahi autoipd
-net-misc/networkmanager -nss -modemmanager

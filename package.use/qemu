@@ -1,0 +1,4 @@
+app-emulation/qemu static-user
+dev-libs/libpcre static-libs
+dev-libs/glib static-libs
+

@@ -1,0 +1,14 @@
+app-arch/upx-ucl
+app-benchmarks/bootchart2
+app-vim/youcompleteme
+dev-embedded/libjaylink
+dev-embedded/openocd
+dev-util/abi-compliance-checker
+dev-util/abi-dumper
+dev-util/codeblocks
+dev-util/pvs-studio
+dev-util/vtable-dumper
+dev-vcs/gitstats
+dev-vcs/repo
+media-gfx/plantuml
+sys-kernel/linux-docs

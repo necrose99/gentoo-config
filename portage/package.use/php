@@ -1,2 +1,0 @@
-dev-lang/php gd apache2 mysql mysqli pdo -threads
-app-eselect/eselect-php apache2

@@ -1,0 +1,3 @@
+net-wireless/gr-osmosdr bladerf hackrf
+sys-devel/gcc fortran
+sys-devel/llvm clang

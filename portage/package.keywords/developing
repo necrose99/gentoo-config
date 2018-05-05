@@ -1,6 +1,0 @@
-sys-kernel/linux-docs
-
-# abi-compliance-checker
-dev-util/abi-compliance-checker
-dev-util/abi-dumper
-dev-util/vtable-dumper

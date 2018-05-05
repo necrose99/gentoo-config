@@ -1,0 +1,13 @@
+dev-python/cycler
+dev-python/kiwisolver
+dev-python/matplotlib
+dev-python/subprocess32
+dev-python/versioneer
+media-libs/qhull
+net-libs/libhackrf
+net-wireless/bladerf
+net-wireless/bladerf-firmware
+net-wireless/bladerf-fpga
+net-wireless/gnuradio
+net-wireless/gqrx
+net-wireless/gr-osmosdr

@@ -1,0 +1,54 @@
+app-arch/bzip2 abi_x86_32
+dev-libs/elfutils abi_x86_32
+dev-libs/expat abi_x86_32
+dev-libs/icu abi_x86_32
+dev-libs/libffi abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/wayland abi_x86_32
+games-util/steam-client-meta -pulseaudio trayicon
+games-util/steam-games-meta s3tc
+media-libs/libtxc_dxtn abi_x86_32
+media-libs/mesa abi_x86_32
+sys-devel/clang abi_x86_32
+sys-devel/llvm abi_x86_32
+sys-libs/ncurses abi_x86_32
+sys-libs/zlib abi_x86_32
+virtual/libelf abi_x86_32
+virtual/libffi abi_x86_32
+virtual/opengl abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/libXvMC abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-proto/damageproto abi_x86_32
+x11-proto/dri2proto abi_x86_32
+x11-proto/dri3proto abi_x86_32
+x11-proto/fixesproto abi_x86_32
+x11-proto/glproto abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/presentproto abi_x86_32
+x11-proto/videoproto abi_x86_32
+x11-proto/xcb-proto python_targets_python3_6 abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xf86driproto abi_x86_32
+x11-proto/xf86vidmodeproto abi_x86_32
+x11-proto/xproto abi_x86_32
+
+# to avoid ring dependency
+media-libs/mesa -vaapi
+net-dns/avahi -gtk
+net-print/cups -zeroconf
+sys-libs/ncurses -gpm
+x11-libs/gtk+ -cups
+x11-libs/libva -egl

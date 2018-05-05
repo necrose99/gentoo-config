@@ -1,6 +1,0 @@
-app-emulation/wine -mp3 -opencl -vaapi odbc
-dev-libs/elfutils static-libs
-sys-devel/gettext abi_x86_32
-dev-libs/libxslt abi_x86_32
-media-libs/libv4l abi_x86_32
-media-libs/openal abi_x86_32
