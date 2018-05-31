@@ -1,0 +1,13 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+ -march=znver1 -mtune=znver1 \
+ --param l1-cache-size=32 \
+ --param l1-cache-line-size=64 \
+ --param l2-cache-size=512"
+
+CXXFLAGS="${CFLAGS}"
+
+CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
+USE="${USE} threads smp"
+
+MAKEOPTS="--jobs 17 --load-average 14.4"
+EMERGE_DEFAULT_OPTS="--jobs 17 --load-average 14.4"
