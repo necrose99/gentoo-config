@@ -1,3 +1,5 @@
+dev-python/kaitaistruct
+dev-libs/jansson
 dev-libs/liblog
 dev-libs/libtools
 dev-util/cmake-abicc
