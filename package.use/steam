@@ -48,7 +48,6 @@ x11-proto/xproto abi_x86_32
 # to avoid ring dependency
 media-libs/mesa -vaapi
 net-dns/avahi -gtk
-net-print/cups -zeroconf
 sys-libs/ncurses -gpm
 x11-libs/gtk+ -cups
 x11-libs/libva -egl
