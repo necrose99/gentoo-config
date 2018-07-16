@@ -3,6 +3,7 @@ dev-python/kiwisolver
 dev-python/matplotlib
 dev-python/subprocess32
 dev-python/versioneer
+media-libs/codec2
 media-libs/qhull
 net-libs/libhackrf
 net-wireless/bladerf
