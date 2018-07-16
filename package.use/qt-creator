@@ -1,2 +1,4 @@
+dev-qt/qt-creator autotools baremetal clangcodemodel clangstaticanalyzer cmake designer git modeling nim valgrind
+dev-util/cmake server
 media-libs/phonon designer
 sys-devel/gdb python
