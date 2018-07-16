@@ -8,6 +8,7 @@ app-arch/p7zip
 app-arch/pbzip2
 app-arch/pigz
 app-arch/pxz
+app-arch/rar
 app-benchmarks/sysbench
 app-editors/vim
 app-misc/beep
@@ -57,7 +58,6 @@ net-misc/telnet-bsd
 net-misc/whois
 net-vpn/openvpn
 net-wireless/iw
-net-wireless/rfkill
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/dmidecode
