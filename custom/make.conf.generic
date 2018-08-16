@@ -25,8 +25,7 @@ L10N="en_GB ru uk uk_UA"
 
 GENTOO_MIRRORS="https://gentoo.in.ua/"
 
-# only 2.7 python
-PYTHON_TARGETS="python2_7 python3_5"
+PYTHON_TARGETS="python2_7 python3_6"
 
 # HARDWARE
 source /etc/portage/custom/hardware/input/generic
