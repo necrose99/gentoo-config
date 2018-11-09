@@ -14,6 +14,7 @@ app-editors/vim
 app-misc/beep
 app-misc/colordiff
 app-misc/evtest
+app-misc/fdupes
 app-misc/grc
 app-misc/mc
 app-misc/screen
@@ -46,6 +47,7 @@ net-dialup/picocom
 net-dns/avahi
 net-dns/bind-tools
 net-fs/nfs-utils
+net-fs/sshfs
 net-ftp/ftp
 net-ftp/vsftpd
 net-misc/axel
