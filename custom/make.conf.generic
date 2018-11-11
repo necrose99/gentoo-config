@@ -32,3 +32,30 @@ source /etc/portage/custom/hardware/input/generic
 source /etc/portage/custom/hardware/video/generic
 
 USE="${USE} acpi wifi alsa lm_sensors cups"
+
+
+
+DISTDIR="/home/ftp/distfiles"
+PORTDIR="/usr/portage"
+
+PYTHON_SINGLE_TARGET="python3_5"
+PYTHON_TARGETS="python2_7 python3_5 python3_6"
+
+USE="${USE} \
+ legacy-systray \
+ custom-cflags \
+ custom-optimization \
+ dolphin \
+ gpm \
+ gimp \
+ icu \
+ opencl \
+ vim-syntax \
+ xkb \
+"
+
+USE="${USE} mp3 encode taglib"
+USE="${USE} egl"
+USE="${USE} opencl"
+USE="${USE} mdnsresponder-compat"
+USE="${USE} gles gles2 wayland"
