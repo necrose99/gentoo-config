@@ -1,0 +1,11 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+-march=armv7-a \
+-marm -mfpu=neon -mfloat-abi=hard \
+-mcpu=cortex-a9"
+
+CXXFLAGS="${CFLAGS}"
+
+USE="${USE} threads smp"
+
+MAKEOPTS="--jobs 3 --load-average 1.8"
+EMERGE_DEFAULT_OPTS="--jobs 3 --load-average 1.8"
