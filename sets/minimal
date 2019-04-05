@@ -4,6 +4,7 @@ app-admin/mcelog
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
+app-arch/hardlink
 app-arch/p7zip
 app-arch/pbzip2
 app-arch/pigz
@@ -87,6 +88,7 @@ sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/cpupower
+sys-process/at
 sys-process/atop
 sys-process/htop
 sys-process/iotop
