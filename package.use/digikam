@@ -1,0 +1,3 @@
+media-gfx/digikam addressbook calendar gphoto2 jpeg2k marble mediaplayer scanner
+media-libs/vigra openexr
+sci-libs/hdf5 -threads
