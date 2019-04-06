@@ -1,2 +1,3 @@
-www-client/firefox -wifi
 media-libs/libpng:0 apng
+sys-devel/clang-runtime -openmp
+www-client/firefox -wifi
