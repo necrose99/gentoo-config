@@ -1,3 +1,4 @@
+app-arch/hardlink
 games-misc/cowsay
 net-misc/redir
 sys-apps/proot
