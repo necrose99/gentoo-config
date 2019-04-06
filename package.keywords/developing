@@ -1,6 +1,7 @@
 app-arch/upx-ucl
 app-benchmarks/bootchart2
 app-vim/youcompleteme
+dev-db/sqlitebrowser
 dev-embedded/libjaylink
 dev-embedded/openocd
 dev-util/abi-compliance-checker
