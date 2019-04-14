@@ -36,7 +36,7 @@ dev-util/strace
 games-misc/cowsay
 mail-client/mailx
 media-fonts/terminus-font
-net-analyzer/gnu-netcat
+net-analyzer/netcat
 net-analyzer/iftop
 net-analyzer/mtr
 net-analyzer/netcat

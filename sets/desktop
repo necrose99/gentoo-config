@@ -13,5 +13,5 @@ media-video/gtk-recordmydesktop
 media-video/mpv
 media-video/smplayer
 net-ftp/filezilla
-net-misc/nextcloud-client
+net-misc/owncloud-client
 net-misc/rdesktop
