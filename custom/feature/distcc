@@ -1,1 +1,4 @@
 FEATURES="${FEATURES} distcc"
+
+# distcc require network to work :)
+FEATURES="${FEATURES} -network-sandbox"
