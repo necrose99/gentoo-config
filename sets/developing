@@ -38,6 +38,7 @@ kde-misc/kdiff3
 media-gfx/fbgrab
 media-gfx/optipng
 media-gfx/plantuml
+media-gfx/wings
 media-sound/sox
 net-ftp/tftp-hpa
 sci-electronics/kicad-meta

@@ -83,7 +83,6 @@ sys-auth/nss-mdns
 sys-block/blktrace
 sys-fs/ddrescue
 sys-fs/dosfstools
-sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/acpid
