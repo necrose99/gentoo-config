@@ -6,10 +6,10 @@ dev-embedded/libjaylink
 dev-embedded/openocd
 dev-util/abi-compliance-checker
 dev-util/abi-dumper
-dev-util/codeblocks
 dev-util/pvs-studio
 dev-util/vtable-dumper
 dev-vcs/gitstats
 dev-vcs/repo
 media-gfx/plantuml
+net-misc/usbip
 sys-kernel/linux-docs

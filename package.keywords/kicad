@@ -1,3 +1,4 @@
+dev-python/wxpython
 sci-electronics/kicad
 sci-electronics/kicad-footprints
 sci-electronics/kicad-i18n
@@ -8,3 +9,4 @@ sci-electronics/kicad-templates
 sci-electronics/ngspice
 sci-libs/oce
 sci-visualization/xgraph
+x11-libs/wxGTK

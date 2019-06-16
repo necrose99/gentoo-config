@@ -14,7 +14,6 @@ dev-embedded/u-boot-tools
 dev-qt/qt-creator
 dev-util/abi-compliance-checker
 dev-util/cgdb
-dev-util/codeblocks
 dev-util/cppcheck
 dev-util/cscope
 dev-util/d-feet
