@@ -49,5 +49,5 @@ x11-proto/xproto abi_x86_32
 media-libs/mesa -vaapi
 net-dns/avahi -gtk
 sys-libs/ncurses -gpm
-x11-libs/gtk+ -cups
+#x11-libs/gtk+ -cups
 x11-libs/libva -egl

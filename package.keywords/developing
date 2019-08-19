@@ -1,4 +1,4 @@
-app-arch/upx-ucl
+app-arch/upx
 app-benchmarks/bootchart2
 app-vim/youcompleteme
 dev-db/sqlitebrowser

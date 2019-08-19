@@ -1,1 +1,2 @@
-dev-vcs/git pcre pcre-jit perl
+dev-vcs/git pcre pcre-jit perl subversion
+dev-vcs/subversion -dso perl
