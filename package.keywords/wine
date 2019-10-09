@@ -1,4 +1,6 @@
 app-emulation/faudio
 app-emulation/vkd3d
+app-emulation/wine-mono
+app-emulation/wine-staging
 app-emulation/wine-vanilla
 app-emulation/winetricks

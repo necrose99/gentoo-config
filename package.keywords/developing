@@ -4,6 +4,7 @@ app-vim/youcompleteme
 dev-db/sqlitebrowser
 dev-embedded/libjaylink
 dev-embedded/openocd
+dev-python/PySDL2
 dev-util/abi-compliance-checker
 dev-util/abi-dumper
 dev-util/pvs-studio

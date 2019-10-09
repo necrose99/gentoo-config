@@ -37,6 +37,7 @@ net-nds/openldap abi_x86_32
 net-print/cups abi_x86_32
 net-wireless/bluez abi_x86_32
 pp-emulation/wine-gecko abi_x86_32
+sys-apps/attr abi_x86_32
 sys-apps/dbus abi_x86_32
 sys-apps/util-linux abi_x86_32
 sys-devel/gettext abi_x86_32
@@ -58,6 +59,7 @@ x11-libs/libXi abi_x86_32
 x11-libs/libXinerama abi_x86_32
 x11-libs/libXrandr abi_x86_32
 x11-libs/libXrender abi_x86_32
+x11-libs/libva abi_x86_32
 x11-libs/libxkbcommon abi_x86_32
 x11-libs/xcb-util abi_x86_32
 x11-libs/xcb-util-cursor abi_x86_32
