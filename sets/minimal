@@ -63,7 +63,6 @@ net-wireless/iw
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/dmidecode
-sys-apps/earlyoom
 sys-apps/ethtool
 sys-apps/hdparm
 sys-apps/i2c-tools
