@@ -38,8 +38,8 @@ USE="${USE} acpi wifi alsa lm_sensors cups"
 DISTDIR="/home/ftp/distfiles"
 PORTDIR="/usr/portage"
 
-PYTHON_SINGLE_TARGET="python3_5"
-PYTHON_TARGETS="python2_7 python3_5 python3_6"
+PYTHON_SINGLE_TARGET="python3_6"
+PYTHON_TARGETS="python2_7 python3_6"
 
 USE="${USE} \
  legacy-systray \

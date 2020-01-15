@@ -12,6 +12,8 @@ dev-qt/qtsql:4 abi_x86_32
 dev-qt/qtsql:5 mysql
 dev-qt/qtwebkit:5 printsupport
 kde-apps/kdemultimedia-meta -qt4
+kde-apps/kdeutils-meta 7zip gpg rar
+kde-apps/kross-interpreters python
 kde-apps/okular chm djvu epub mobi plucker
 kde-plasma/plasma-meta grub
 kde-plasma/powerdevil -wireless

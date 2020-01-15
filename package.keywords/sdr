@@ -9,12 +9,7 @@ net-libs/libhackrf
 net-wireless/bladerf
 net-wireless/bladerf-firmware
 net-wireless/bladerf-fpga
-net-wireless/cubicsdr
 net-wireless/gnuradio
 net-wireless/gqrx
 net-wireless/gr-osmosdr
-net-wireless/rtl-sdr
-net-wireless/soapybladerf
-net-wireless/soapyhackrf
-net-wireless/soapyrtlsdr
-net-wireless/soapysdr
+net-wireless/sdrplay

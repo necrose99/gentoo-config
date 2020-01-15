@@ -1,0 +1,7 @@
+app-emulation/libvirt fuse libssh lxc virtualbox wireshark-plugins
+app-emulation/libvirt-glib -vala
+app-emulation/qemu spice
+net-libs/gtk-vnc -vala
+net-misc/spice-gtk gstaudio gstvideo lz4 usbredir
+sys-libs/libosinfo -vala
+x11-libs/gtksourceview -vala

@@ -1,7 +1,7 @@
 app-arch/upx
 app-benchmarks/bootchart2
 app-doc/doxygen
-app-emulation/aqemu
+app-emulation/virt-manager
 app-i18n/enca
 app-portage/repoman
 app-text/sloccount
@@ -14,6 +14,7 @@ dev-embedded/u-boot-tools
 dev-qt/qt-creator
 dev-util/abi-compliance-checker
 dev-util/cgdb
+dev-util/cmocka
 dev-util/cppcheck
 dev-util/cscope
 dev-util/d-feet
