@@ -11,6 +11,7 @@ dev-db/sqlitebrowser
 dev-embedded/esptool
 dev-embedded/openocd
 dev-embedded/u-boot-tools
+dev-lang/gprolog
 dev-qt/qt-creator
 dev-util/abi-compliance-checker
 dev-util/cgdb
