@@ -1,3 +1,6 @@
+net-wireless/soapyrtlsdr
+net-wireless/soapyhackrf
+net-wireless/soapybladerf
 dev-python/cycler
 dev-python/kiwisolver
 dev-python/matplotlib
@@ -13,3 +16,4 @@ net-wireless/gnuradio
 net-wireless/gqrx
 net-wireless/gr-osmosdr
 net-wireless/sdrplay
+net-wireless/soapysdr

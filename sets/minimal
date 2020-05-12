@@ -80,6 +80,7 @@ sys-apps/usbutils
 sys-apps/usermode-utilities
 sys-auth/nss-mdns
 sys-block/blktrace
+sys-block/zram-init
 sys-fs/ddrescue
 sys-fs/dosfstools
 sys-kernel/gentoo-sources

@@ -1,9 +1,12 @@
+app-arch/zstd abi_x86_32
 app-emulation/vkd3d abi_x86_32
+app-emulation/wine-gecko abi_x86_32
 app-emulation/wine-vanilla -ldap -mono capi dos odbc pcap prelink scanner vkd3d
 dev-db/unixODBC abi_x86_32
 dev-libs/elfutils static-libs
 dev-libs/glib abi_x86_32
 dev-libs/gmp abi_x86_32
+dev-libs/libevent abi_x86_32
 dev-libs/libgcrypt abi_x86_32
 dev-libs/libgpg-error abi_x86_32
 dev-libs/libltdl abi_x86_32

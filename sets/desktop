@@ -8,7 +8,7 @@ kde-plasma/plasma-meta
 media-gfx/gimp
 media-gfx/xsane
 media-sound/clementine
-media-video/gtk-recordmydesktop
+media-video/simplescreenrecorder
 media-video/mpv
 media-video/smplayer
 net-ftp/filezilla

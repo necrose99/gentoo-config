@@ -12,9 +12,12 @@ dev-embedded/esptool
 dev-embedded/openocd
 dev-embedded/u-boot-tools
 dev-lang/gprolog
+dev-python/GitPython
+dev-python/PySDL2
 dev-qt/qt-creator
 dev-util/abi-compliance-checker
 dev-util/cgdb
+dev-util/clion
 dev-util/cmocka
 dev-util/cppcheck
 dev-util/cscope
@@ -47,6 +50,7 @@ sys-apps/fakeroot
 sys-boot/syslinux
 sys-devel/crossdev
 sys-devel/distcc
+sys-fs/mtd-utils
 sys-fs/squashfs-tools
 sys-kernel/linux-docs
 sys-power/iasl
