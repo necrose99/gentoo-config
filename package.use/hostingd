@@ -1,2 +1,1 @@
-dev-libs/libtools uri mysql
-dev-util/cmake-doxygen plantuml
+dev-libs/libtools mysql uri

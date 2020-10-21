@@ -1,1 +1,5 @@
-USE="${USE} v4l"
+USE="${USE} \
+dvb \
+v4l \
+v4l2 \
+"

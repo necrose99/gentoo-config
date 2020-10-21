@@ -1,2 +1,7 @@
-net-wireless/gnuradio atsc channels dtv doc examples fec grc pager portaudio trellis vocoder wavelet
-net-wireless/gr-osmosdr python
+dev-libs/boost python
+dev-python/matplotlib -python_targets_python2_7
+dev-python/numpy lapack
+net-wireless/gnuradio dtv fec grc
+net-wireless/gr-osmosdr bladerf iqbalance python rtlsdr soapy
+net-wireless/soapysdr bladerf python rtlsdr
+x11-libs/wxGTK gstreamer

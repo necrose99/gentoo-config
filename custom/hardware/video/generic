@@ -1,1 +1,4 @@
-VIDEO_CARDS="fbdev vesa"
+VIDEO_CARDS="${VIDEO_CARDS} \
+fbdev \
+vesa \
+"

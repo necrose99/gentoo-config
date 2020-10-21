@@ -1,5 +1,3 @@
-app-arch/hardlink
 app-misc/grc
 games-misc/cowsay
-net-misc/redir
 sys-apps/proot

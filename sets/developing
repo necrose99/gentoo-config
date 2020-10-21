@@ -1,6 +1,7 @@
 app-arch/upx
 app-benchmarks/bootchart2
 app-doc/doxygen
+app-emulation/docker
 app-emulation/virt-manager
 app-i18n/enca
 app-portage/repoman
@@ -13,10 +14,10 @@ dev-embedded/openocd
 dev-embedded/u-boot-tools
 dev-lang/gprolog
 dev-python/GitPython
-dev-python/PySDL2
-dev-qt/qt-creator
 dev-util/abi-compliance-checker
+dev-util/ccache
 dev-util/cgdb
+dev-util/clazy
 dev-util/clion
 dev-util/cmocka
 dev-util/cppcheck
@@ -37,6 +38,7 @@ dev-vcs/qgit
 dev-vcs/repo
 dev-vcs/tig
 kde-apps/kcachegrind
+kde-apps/kdesdk-meta
 kde-apps/kompare
 kde-misc/kdiff3
 media-gfx/fbgrab
@@ -54,4 +56,5 @@ sys-fs/mtd-utils
 sys-fs/squashfs-tools
 sys-kernel/linux-docs
 sys-power/iasl
+x11-apps/xev
 x11-terms/xterm

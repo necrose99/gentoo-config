@@ -1,6 +1,10 @@
-dev-db/myodbc		debug.conf
-dev-db/unixODBC		debug.conf
-dev-libs/jansson	debug.conf
-dev-libs/liblog		debug.conf
-dev-libs/libtools	debug.conf
-sys-libs/glibc		debug.conf
+app-emulation/wine-desktop-common	debug.conf
+app-emulation/wine-gecko		debug.conf
+app-emulation/wine-mono			debug.conf
+app-emulation/wine-vanilla		debug.conf
+dev-db/myodbc				debug.conf
+dev-db/unixODBC				debug.conf
+dev-libs/jansson			debug.conf
+dev-libs/liblog				debug.conf
+dev-libs/libtools			debug.conf
+sys-libs/glibc				debug.conf

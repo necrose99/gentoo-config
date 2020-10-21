@@ -1,3 +1,13 @@
-VIDEO_CARDS="${VIDEO_CARDS} radeon radeonsi amdgpu"
+VIDEO_CARDS="${VIDEO_CARDS} \
+amdgpu \
+radeon \
+radeonsi \
+"
 
-USE="${USE} glamor gbm opencl vulkan"
+USE="${USE} \
+drm \
+gbm \
+glamor \
+opencl \
+vulkan \
+"

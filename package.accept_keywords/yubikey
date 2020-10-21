@@ -1,8 +1,3 @@
-app-crypt/yubikey-manager
 app-crypt/yubikey-manager-qt
-dev-python/fido2
 dev-python/pyotherside
-dev-python/pyscard
-dev-python/pyusb
-sys-auth/ykpers
 sys-auth/yubikey-personalization-gui

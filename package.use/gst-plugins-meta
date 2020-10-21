@@ -1,0 +1,2 @@
+media-plugins/gst-plugins-meta ffmpeg dv opus theora vcd vpx
+media-libs/gst-plugins-base theora

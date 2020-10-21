@@ -1,3 +1,8 @@
-VIDEO_CARDS="${VIDEO_CARDS} radeon"
+VIDEO_CARDS="${VIDEO_CARDS} \
+radeon \
+"
 
-USE="${USE} gbm"
+USE="${USE} \
+drm \
+gbm \
+"

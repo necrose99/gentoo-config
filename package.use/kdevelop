@@ -1,1 +1,2 @@
-dev-util/kdevelop hex
+dev-util/kdevelop hex webkit
+sys-devel/gdb python

@@ -1,5 +1,3 @@
-dev-db/sqlite secure-delete
-media-libs/libpng:0 apng
 media-libs/libvpx postproc
-sys-devel/clang-runtime -openmp
-www-client/firefox -wifi
+www-client/firefox hwaccel
+x11-base/xorg-server xvfb

@@ -1,3 +1,13 @@
-USE="${USE} nvidia vdpau cuda opencl uvm"
+USE="${USE} \
+cuda \
+nvidia \
+opencl \
+uvm \
+vdpau \
+"
 
-VIDEO_CARDS="${VIDEO_CARDS} nvidia nouveau nv"
+VIDEO_CARDS="${VIDEO_CARDS} \
+nouveau \
+nv \
+nvidia \
+"
