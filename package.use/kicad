@@ -1,6 +1,5 @@
 app-doc/kicad-doc -html pdf
 app-text/texlive-core xetex
 dev-libs/boost context
-media-libs/glu abi_x86_32
 sci-electronics/kicad doc examples github
 sci-electronics/kicad-meta doc

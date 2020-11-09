@@ -1,2 +1,4 @@
 dev-libs/libxml2 python
+net-dns/dnsmasq script
+net-firewall/iptables ipv6
 net-misc/spice-gtk usbredir

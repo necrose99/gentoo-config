@@ -3,3 +3,4 @@ kde-apps/kdenetwork-meta -telepathy
 kde-plasma/plasma-meta grub
 kde-plasma/powerdevil -wireless
 net-im/telepathy-connection-managers -irc -xmpp -zeroconf -steam
+sys-apps/xdg-desktop-portal screencast

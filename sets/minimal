@@ -82,6 +82,7 @@ sys-apps/watchdog
 sys-auth/nss-mdns
 sys-block/blktrace
 sys-block/zram-init
+sys-fs/bcache-tools
 sys-fs/ddrescue
 sys-fs/dosfstools
 sys-kernel/genkernel

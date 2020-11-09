@@ -4,10 +4,10 @@ app-doc/doxygen
 app-emulation/docker
 app-emulation/virt-manager
 app-i18n/enca
+app-misc/binwalk
 app-portage/repoman
 app-text/sloccount
 dev-db/myodbc
-dev-db/mysql-workbench
 dev-db/sqlitebrowser
 dev-embedded/esptool
 dev-embedded/openocd
@@ -32,7 +32,6 @@ dev-util/kdevelop-python
 dev-util/pvs-studio
 dev-util/valgrind
 dev-util/vbindiff
-dev-vcs/gitstats
 dev-vcs/kdesvn
 dev-vcs/qgit
 dev-vcs/repo
@@ -49,6 +48,7 @@ media-sound/sox
 net-ftp/tftp-hpa
 sci-electronics/kicad-meta
 sys-apps/fakeroot
+sys-apps/flashrom
 sys-boot/syslinux
 sys-devel/crossdev
 sys-devel/distcc

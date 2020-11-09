@@ -1,7 +1,6 @@
-media-sound/audacity
 app-office/libreoffice
 app-text/goldendict
-kde-apps/kde-meta
+kde-apps/kde-apps-meta
 kde-apps/yakuake
 kde-misc/openofficeorg-thumbnail
 kde-plasma/plasma-meta
@@ -9,6 +8,8 @@ mail-client/thunderbird
 media-gfx/gimp
 media-gfx/xsane
 media-sound/apulse
+media-sound/audacity
+media-sound/bluez-alsa
 media-sound/clementine
 media-video/simplescreenrecorder
 media-video/smplayer
