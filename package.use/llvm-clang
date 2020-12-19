@@ -1,0 +1,12 @@
+####LLVM clang opts
+
+sci-mathematics/z3  python  gmp  isabelle  
+#sci-mathematics/z3  java
+
+sys-devel/llvm gold libffi ncurses xar xml exegesis libedit z3
+
+sys-libs/libomp cuda hwloc offload ompt
+
+sys-devel/clang USE="static-analyzer xml default-compiler-rt  default-libcxx default-lld
+
+sys-devel/clang-runtime compiler-rt openmp sanitize libcxx

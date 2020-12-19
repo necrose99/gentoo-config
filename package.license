@@ -1,0 +1,8 @@
+# required by media-libs/nv-codec-headers-9.0.18.1::gentoo
+# required by media-video/ffmpeg-4.2.3::gentoo[video_cards_nvidia]
+# required by www-client/chromium-83.0.4103.97::gentoo
+# required by pentoo/pentoo-desktop-2020.0::pentoo
+# required by pentoo/pentoo-2015.1::pentoo
+# required by @selected
+# required by @world (argument)
+>=x11-drivers/nvidia-drivers-440.82-r3 NVIDIA-r2

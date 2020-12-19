@@ -1,0 +1,4 @@
+sys-kernel/genkernel-next plymouth
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[gtk]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.38 usbredir

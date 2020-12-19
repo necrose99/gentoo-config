@@ -1,0 +1,87 @@
+sys-kernel/pentoo-sources experimental pentoo-experimental symlink# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-portage/gemato-16.2 python_targets_python3_8
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.25.0 python_targets_python3_8
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/chardet-3.0.4-r1 python_targets_python3_8
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-2.10-r1 python_targets_python3_8
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-1.26.2 python_targets_python3_8
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/cryptography-3.2.1 python_targets_python3_8
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/six-1.15.0-r1 python_targets_python3_8
+# required by dev-python/cryptography-3.2.1::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/cffi-1.14.0-r3 python_targets_python3_8
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by dev-python/cryptography-3.2.1::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycparser-2.20-r1 python_targets_python3_8
+# required by dev-python/pycparser-2.20-r1::gentoo
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by dev-python/cryptography-3.2.1::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r1 python_targets_python3_8
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/PySocks-1.7.1-r1 python_targets_python3_8
+# required by dev-python/urllib3-1.26.2::gentoo
+# required by dev-python/requests-2.25.0::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyopenssl-19.1.0-r1 python_targets_python3_8
