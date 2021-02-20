@@ -1,0 +1,8 @@
+dev-libs/roct-thunk-interface
+sys-devel/llvm-roc
+dev-libs/rocclr
+dev-libs/rocm-comgr
+dev-libs/rocm-device-libs
+dev-libs/rocm-opencl-runtime
+dev-libs/rocr-runtime
+dev-util/rocm-cmake
