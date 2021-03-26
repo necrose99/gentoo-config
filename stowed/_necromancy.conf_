@@ -1,0 +1,7 @@
+[necromancy ] clean up own repo.. testing repo.. lots of cruft...
+location = /home/necrose99/necromancy/
+# sym-on /var/db/repos/necromancy/
+priority = 100
+sync-type = git
+sync-uri = https://github.com/necrose99/necromancy-overlay.git
+auto-sync = yes

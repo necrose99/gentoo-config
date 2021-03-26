@@ -1,0 +1,47 @@
+*/* CPU_FLAGS_X86: aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 sse3 sse4_1 sse4_2 ssse3
+media-libs/mesa wayland zink opencl d3d9 valgrind vulkan-overlay
+sys-boot/refind hfs reiserfs ntfs btrfs
+net-im/slack suid appindicator gtk3
+kde-plasma/kde-cli-tools kdesu
+dev-libs/libdbusmenu gtk3
+kde-frameworks/kio designer kerberos
+dev-qt/designer webkit declarative
+kde-frameworks/kitemmodels qml
+dev-qt/qtgui wayland ibus vulkan vnc
+app-exploits/empire java powershell
+x11-misc/colord vala scanner extra-print-profiles
+www-client/chromium ozone closure-compile
+media-gfx/sane-backends gphoto2 v4l
+app-crypt/kbfs git
+net-misc/ntp parse-clocks zeroconf snmp
+net-dns/avahi mdnsresponder-compat -python_targets_python2_7
+app-i18n/ibus vala
+dev-qt/qtpositioning geoclue
+app-misc/geoclue modemmanager vala zeroconf
+net-misc/connman -iptables wispr iwd wiregaurd openvpn openconnect tools l2p ofono vpnc
+sys-libs/binutils-libs multitarget
+sys-libs/libseccomp python static-libs
+dev-qt/qtwebkit qml nsplugin geolocation -multimedia
+kde-plasma/plasma-workspace appstream geolocation qalculate
+kde-apps/meta ibcxx otr
+dev-qt/linguist-tool libcxx qml
+lxqt-base/lxqt-meta sudo policykit ssh-askpass nls sddm trash archiver filemanager admin display-manager lximage terminal about powermanagement screenshot processviewer
+dev-qt/qttranslations libcxx
+dev-qt/linguist-tools qml libcxx
+kde-frameworks/kidletime xscreensaver
+net-misc/networkmanager vala
+x11-libs/vte crypt vala
+lxde-base/lxpanel tools
+net-libs/libproxy networkmanager mono webkit gnome kde spidermonkey
+dev-qt/qtwayland x libcxx vulkan
+net-wireless/gr-osmosdr hackrf uhd airspy sdrplay soapy rtlsdr python bladerf mirisdr iqbalance
+net+wireless/uhd octoclock x300 e300 usrp2 n230 b200 doc mpmd b100 usb utils examples usrp1
+pp-doc/doxygen qt5 doxysearch sqlite clang
+app-doc/doxygen qt5 doxysearch sqlite clang
+dev-libs/boost icu static-libs mpi numpy threads context python zstd nls tools zlib lzma bzip2
+sys-devel/gcc go pch d objc++ objc ada graphite systemtap objc-gc ztsd
+dev-qt/qtconcurrent libcxx
+dev-qt/qtbluetooth qml test
+dev-util/systemtap zeroconf libvirt
+dev-libs/isl static-libs
+sci-mathematics/z3 isabelle gmp java

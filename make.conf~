@@ -1,0 +1,41 @@
+#This is the default Pentoo make.conf file, it controls many basic system settings.
+#You can find information on how to edit this file in "man make.conf" as well as
+#on the web at https://wiki.gentoo.org/wiki/etc/portage/make.conf
+
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+
+#Please adjust your CFLAGS as desired, information can be found here: https://wiki.gentoo.org/wiki/CFLAGS
+#Do not modify these FLAGS unless you know what you are doing, always check the defaults first with "portageq envvar CFLAGS"
+#This is the default for pentoo at the time of build:
+#CFLAGS="-Os -mtune=core2 -pipe -frecord-gcc-switches"
+#A safe choice would be to keep whatever Pentoo defaults are, but optimize for your specific machine:
+#CFLAGS="${CFLAGS} -march=native"
+#If you do change your CFLAGS, it is best for all the compile flags to match so uncomment the following three lines:
+CHOST="x86_64-pc-linux-gnu"
+CFLAGS="-march=skylake -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+
+#Please adjust your use flags, if you don't use gpu cracking, it is probably safe to remove opencl
+#Currently opencl is only supported on nvidia gpu, so if you drop nvidia from VIDEO_CARDS, drop opencl
+USE="${USE} opencl vulkan ibus vnc wayland eglfs webp audit libssh dtrace firewalld xen sasl virtualbox wireshark-plugins"
+
+#MAKEOPTS is set automatically by the profile to jobs equal to processors, you do not need to set it.
+
+#Default VIDEO_CARDS setting enables nearly everything, you can enable fewer here if you like:
+#VIDEO_CARDS="nvidia nouveau amdgpu radeon"
+#Intel gpu should use modesetting driver which isn't optional but the recommended setting is: VIDEO_CARDS="intel i965"
+#you can check available options with "emerge -vp xorg-drivers"
+
+# EMERGE_DEFAULT_OPTS is set automatically by livecd-tools autoconfig during first live boot.
+# This should be equal to number of processors, see "man emerge" for details.
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=12 --load-average=12"
+
+
+ACCEPT_KEYWORDS="amd64 ~amd64"
+
+ACCEPT_LICENSE="* @FREE"
+
+PYTHON_TARGETS="python3_7 python3_6 python3_8 python3_9  python2_7" # pypy3
+
+RUBY_TARGETS="ruby25 ruby26 ruby27"

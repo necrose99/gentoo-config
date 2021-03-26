@@ -11,36 +11,23 @@ PKGDIR="/var/cache/binpkgs"
 #CFLAGS="-Os -mtune=core2 -pipe -frecord-gcc-switches"
 #A safe choice would be to keep whatever Pentoo defaults are, but optimize for your specific machine:
 # Compiler stuff
-#GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block -ftree-vectorize"
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
 #CFLAGS="${CFLAGS} -march=native"
 #If you do change your CFLAGS, it is best for all the compile flags to match so uncomment the following three lines:
-COMMON_FLAGS="-O2 -pipe -march=skylake  -mtune=skylake  ${GRAPHITE} ${CPU_FLAGS_skylake}"
-CPU_FLAGS_skylake="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 sse3 sse4_1 sse4_2 ssse3"
 CHOST="x86_64-pc-linux-gnu"
-CFLAGS="${COMMON_FLAGS}"
-CXXFLAGS="${COMMON_FLAGS}"
-FCFLAGS="${COMMON_FLAGS}"
-FFLAGS="${COMMON_FLAGS}"
-LDFLAGS="${COMMON_FLAGS} -Wl,-O1 -Wl,--as-needed"
+CFLAGS="-march=skylake -O2 -pipe -ftree-vectorize ${GRAPHITE}""
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
-
-EMERGE_DEFAULT_OPTS="--jobs=10 --load-average=9 --with-bdeps=y --keep-going=y --color=y --binpkg-respect-use=y --autounmask-continue=y  --binpkg-changed-deps=y"
- 
-## 12 however tuned down for desktop use.
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=8 --load-average=12"
 # Compiler stuff
 
 # Portage stuff
 # EMERGE_DEFAULT_OPTS is set automatically by livecd-tools autoconfig during first live boot.
 # This should be equal to number of processors, see "man emerge" for details.
-
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=12 --load-average=12"
 ACCEPT_KEYWORDS="~amd64"
-# This sets the language of build output to English.
-# Please keep this setting intact when reporting bugs.
-LC_MESSAGES=C
-FEATURES="${FEATURES} getbinpkg ${FEATURES_2} ${FEATURES_3}"
-FEATURES_2="buildpkg distcc  parallel-fetch usepkg  compressdebug splitdebug  parallel-install"
-#binpkg-multi-instance useful for local rebuilds with differing flags but some hosts no like xpaks ,,
-#FEATURES_3="binpkg-multi-instance"  protect-owned collision-detect ## <<typically wise 
+FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
 ACCEPT_KEYWORDS="amd64 ~amd64"
@@ -65,7 +52,8 @@ USE="${PEN_BAD} ${PEN_MEDIA} ${PEN_CODECS} ${PEN_SYSTEM} ${PEN_FILESYS} ${PEN_PR
 
 #Please adjust your use flags, if you don't use gpu cracking, it is probably safe to remove opencl
 #Currently opencl is only supported on nvidia gpu, so if you drop nvidia from VIDEO_CARDS, drop opencl
-USE="${USE} opencl vulkan ibus vnc wayland eglfs webp audit libssh dtrace firewalld xen sasl virtualbox wireshark-plugins pch xar z3 exegesis gold qml cacao nsplugin webstart jamvm"
+USE="${USE} opencl vulkan ibus vnc wayland eglfs webp audit libssh dtrace firewalld xen sasl virtualbox wireshark-plugins pch qml cacao nsplugin webstart jamvm"
+LVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 -ARC ARM -AVR -Hexagon -Lanai MSP430 Mips -PowerPC RISCV -Sparc -SystemZ WebAssembly -XCore"
 
 
 ## DEVICES ##
@@ -81,27 +69,27 @@ CAMERAS="agfa_cl20 casio_qv dimagev dimera3500 kodak_dc120 kodak_dc210 kodak_dc2
 LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
 
 ## QEMU ##
-QEMU_SOFTMMU_TARGETS="arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 sh4 sh4eb sparc sparc64 x86_64 aarch64 riscv32 riscv64 alpha avr hppa lm32 microblazeel " 
-QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64 aarch64 aarch64_be mips64 mips64el mipsn32 mipsn32el riscv32 riscv64"
-### Un-USED
-#QEMU_SOFTMMU_TARGETS="-moxie -nios2 -or1k -rx -s390x -tricore -unicore32 -xtensa -xtensaeb"
-#QEMU_USER_TARGETS=" --nios2 -or1k -ppc64le hppa -microblazeel -s390x -tilegx -xtensa -xtensaeb"
-## PORTAGE CONFIG ##
+QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64"
+QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
 
+
+## PORTAGE CONFIG ##
+PORTDIR_OVERLAY="/usr/local/portage"
+source /var/lib/layman/make.conf
 CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 APACHE2_MPMS="prefork"
 
-ACCEPT_LICENSE="*"
+ACCEPT_LICENSE="* -@EULA"
 
 USE_PYTHON="3.7"
-PYTHON_TARGETS="python3_8"
-PYTHON_TARGETS="python3_7 python3_6 python3_8 python3_9 pypy3"
+PYTHON_TARGETS="python3_7"
+PYTHON_TARGETS="python3_7 python3_6 python3_8 python3_9  python2_7pypy3"
 
 # Some more forced targets
-PHP_TARGETS=">=php7-3"
-RUBY_TARGETS="ruby26 ruby27"
+PHP_TARGETS="php7-3"
+RUBY_TARGETS="ruby25"
 
 # Apache suEXEC default UMASK
 # See bug 3544
@@ -112,6 +100,4 @@ GRUB_PLATFORMS="efi-32 efi-64 pc"
 
 
 
-
-
-GENTOO_MIRRORS="http://gentoo.mirrors.easynews.com/linux/gentoo/ http://www.gtlib.gatech.edu/pub/gentoo rsync://rsync.gtlib.gatech.edu/gentoo https://gentoo.osuosl.org/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ https://mirrors.rit.edu/gentoo/ http://mirrors.rit.edu/gentoo/ ftp://mirrors.rit.edu/gentoo/ rsync://mirrors.rit.edu/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://gentoo.cs.utah.edu/"
+RUBY_TARGETS="ruby25 ruby26 ruby27"
