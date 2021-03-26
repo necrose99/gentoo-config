@@ -1,1 +1,1 @@
-../../var/db/repos/pentoo/profiles/pentoo/hardened/linux/amd64/binary
+../../var/db/repos/pentoo/profiles/pentoo/hardened/linux/amd64_r1/binary

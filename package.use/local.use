@@ -48,7 +48,37 @@ app-crypt/keybase gui kbfs
 gnome-base/gconf python_targets_python2_7
 sys-boot/etche python_targets_python3_7 python_targets_python2_7
 sys-boot/etcher python_targets_python2_7
-app-office/libreoffice java odk coinmp firebird libreoffice_extensions_nlpsolver libreoffice_extensions_scripting-javascript
-media-libs/libsdl2 gless2 nas gles2 xscreensaver
-dev-libs/xmlsec gcrypt static-libs
-media-libs/freetype harfbuzz
+# required by pentoo/pentoo-proxies-2020.0::pentoo[python_targets_python3_6,pentoo-full]
+# required by pentoo/pentoo-2015.1::pentoo[proxies]
+# required by @selected
+# required by @world (argument)
+>=net-proxy/mitmproxy-5.2 -python_targets_python3_6
+# required by dev-python/qtconsole-4.7.5::gentoo
+# required by dev-python/ipython-7.16.1::gentoo[qt5]
+# required by dev-util/androguard-3.3.5::pentoo
+# required by pentoo/pentoo-mobile-2020.2::pentoo[android,pentoo-full]
+# required by pentoo/pentoo-2015.1::pentoo[mobile]
+# required by @selected
+# required by @world (argument)
+>=dev-python/QtPy-1.9.0-r2 printsupport
+# required by media-video/vlc-3.0.11.1::gentoo[bidi]
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-desktop-5.19.4::gentoo
+# required by kde-plasma/plasma-meta-5.19.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.2-r1 harfbuzz
+# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.3::gentoo
+# required by gnome-extra/nm-applet-1.18.0::gentoo
+# required by pentoo/pentoo-desktop-2020.2::pentoo[-mate,xfce]
+# required by pentoo/pentoo-2015.1::pentoo[desktop]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
+# required by net-firewall/firewalld-0.7.3-r1::gentoo[iptables,nftables]
+# required by app-emulation/libvirt-6.5.0::gentoo[firewalld]
+# required by dev-util/systemtap-4.0-r1::gentoo[libvirt]
+# required by app-emulation/qemu-5.1.0::gentoo[systemtap,-static,-static-user]
+>=net-firewall/nftables-0.9.6 xtables

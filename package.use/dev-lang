@@ -1,0 +1,3 @@
+dev-lang/go gccgo
+
+dev-lang/python bluetooth gdbm hardened ipv6 ncurses readline sqlite ssl tk xml verify-sig
