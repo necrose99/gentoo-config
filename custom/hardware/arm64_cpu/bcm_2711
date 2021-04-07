@@ -1,0 +1,50 @@
+
+
+CFLAGS="-O3 -pipe -fomit-frame-pointer \
+ -march=armv8-a+crc+crypto -mcpu=cortex-a72.cortex-a53 \
+ -mfloat-abi=hard
+ -mfpu=neon-vfpv4
+ -marm
+ -mthumb-interwork \
+ "
+
+CXXFLAGS="${CFLAGS}"
+
+
+
+MAKEOPTS="--jobs 5 --load-average 3.6"
+EMERGE_DEFAULT_OPTS="--jobs 5 --load-average 4"
+
+
+ACCEPT_KEYWORDS="~arm64 arm64 **"
+CHOST="aarch64-unknown-linux-gnu"
+ACCEPT_LICENSE="*"
+USE=""
+COMMON_FLAGS="-O2 -pipe -march=armv8-a+crc+crypto -mcpu=cortex-a72.cortex-a53 -mfloat-abi=hard  ${GRAPHITE} ${CPU_FLAGS_ARM64}"
+# -mfpu=neon-fp-armv8 -mneon-for-64bits gentoo bug. 
+CPU_FLAGS_ARM64="edsp neon thumb vfp vfpv3 vfpv4 vfp-d32 crc32 v4 v5 v6 v7 v8 thumb2"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block -ftree-vectorize"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult https://wiki.gentoo.org/wiki/Changing_the_CHOST_variable before changing.
+CHOST="aarch64-unknown-linux-gnu"
+#aarch64-cortex_a53-linux-gnu
+
+
+USE="${USE} \
+ armvfp \
+ neon \
+ smp \
+ threads \
+"
+
+CHOST="aarch64-unknown-linux-gnu"
+
+# Setup GRUB platforms
+GRUB_PLATFORMS="arm  arm64 lp64 lp32 pc uboot"
+
+# Support both 64bit and 32bit
+ABI_arm64="arm64 arm32 lp64 lp32" ## would be a plus.
