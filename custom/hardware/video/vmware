@@ -1,0 +1,11 @@
+VIDEO_CARDS="${VIDEO_CARDS} \
+vmware
+"
+
+USE="${USE} \
+drm \
+gbm \
+glamor \
+opencl \
+vulkan \
+"
