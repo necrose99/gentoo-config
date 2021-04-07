@@ -1,0 +1,13 @@
+# https://github.com/spreequalle/gentoo-binhost/tree/aarch64-cn8890-linux-gnu
+# Cavium ThunderX 88XX
+
+CFLAGS_COMMON="-O2 -pipe -fomit-frame-pointer -fno-ident"
+CFLAGS_CPU="-mcpu=thunderxt88+aes+sha2"
+CFLAGS_LTO="-flto -fuse-linker-plugin"
+CFLAGS="${CFLAGS_COMMON} ${CFLAGS_CPU} ${CFLAGS_LTO}"
+CXXFLAGS="${CFLAGS} -fvisibility-inlines-hidden"
+
+#Enable system-wide LTO.
+LDFLAGS_COMMON="-Wl,--hash-style=gnu -Wl,--enable-new-dtags -Wl,-fuse-ld=bfd"
+LDFLAGS_LTO="-flto -fuse-linker-plugin"
+LDFLAGS="${LDFLAGS_COMMON} ${LDFLAGS_LTO}"
