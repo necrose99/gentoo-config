@@ -1,5 +1,4 @@
 app-office/libreoffice
-app-text/goldendict
 kde-apps/kde-apps-meta
 kde-apps/yakuake
 kde-misc/openofficeorg-thumbnail
@@ -16,3 +15,4 @@ media-video/smplayer
 net-ftp/filezilla
 net-misc/nextcloud-client
 sys-block/gparted
+x11-apps/xhost

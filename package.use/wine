@@ -1,21 +1,2 @@
-app-emulation/wine-gecko abi_x86_32
-app-emulation/wine-vanilla -sdl
-dev-lang/rust abi_x86_32
-dev-libs/icu abi_x86_32
-dev-libs/libgcrypt abi_x86_32
-dev-libs/libgpg-error abi_x86_32
-dev-libs/libxslt abi_x86_32
-media-libs/alsa-lib abi_x86_32
-media-libs/glu abi_x86_32
-media-libs/lcms abi_x86_32
-media-libs/libsdl2 abi_x86_32 -vulkan
-media-libs/libv4l abi_x86_32
-media-libs/vulkan-loader abi_x86_32
-media-sound/mpg123 abi_x86_32
-net-nds/openldap abi_x86_32
-sys-fs/eudev abi_x86_32
-virtual/glu abi_x86_32
-virtual/libudev abi_x86_32
-virtual/rust abi_x86_32
-x11-libs/libXinerama abi_x86_32
-x11-libs/libxkbcommon abi_x86_32
+app-emulation/wine-vanilla dos -sdl
+media-libs/libsdl2 -vulkan

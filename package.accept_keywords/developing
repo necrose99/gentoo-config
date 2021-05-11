@@ -1,7 +1,6 @@
 app-arch/upx
 app-benchmarks/bootchart2
 dev-db/sqlitebrowser
-dev-embedded/esptool
 dev-util/abi-compliance-checker
 dev-util/pvs-studio
 dev-vcs/gitstats

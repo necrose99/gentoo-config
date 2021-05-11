@@ -1,1 +1,2 @@
-media-video/ffmpeg theora
+media-video/ffmpeg theora vpx
+media-video/simplescreenrecorder theora vpx

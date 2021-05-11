@@ -8,6 +8,7 @@ app-arch/hardlink
 app-arch/p7zip
 app-arch/pbzip2
 app-arch/pigz
+app-arch/pixz
 app-arch/pxz
 app-arch/rar
 app-benchmarks/sysbench

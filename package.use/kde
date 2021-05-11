@@ -1,5 +1,6 @@
 dev-qt/qtmultimedia gstreamer
-kde-apps/kdenetwork-meta -telepathy
+kde-apps/kdenetwork-meta dropbox -telepathy
+kde-apps/kdeutils-meta 7zip gpg rar
 kde-plasma/plasma-meta grub
 kde-plasma/powerdevil -wireless
 net-im/telepathy-connection-managers -irc -xmpp -zeroconf -steam

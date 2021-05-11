@@ -23,6 +23,7 @@ dev-util/cmocka
 dev-util/cppcheck
 dev-util/cscope
 dev-util/d-feet
+dev-util/ddd
 dev-util/debugedit
 dev-util/elfkickers
 dev-util/gource
@@ -45,13 +46,17 @@ media-gfx/optipng
 media-gfx/plantuml
 media-gfx/wings
 media-sound/sox
+net-fs/s3fs
 net-ftp/tftp-hpa
 sci-electronics/kicad-meta
 sys-apps/fakeroot
 sys-apps/flashrom
+sys-apps/input-utils
 sys-boot/syslinux
 sys-devel/crossdev
 sys-devel/distcc
+sys-fs/cramfs
+sys-fs/genext2fs
 sys-fs/mtd-utils
 sys-fs/squashfs-tools
 sys-kernel/linux-docs
