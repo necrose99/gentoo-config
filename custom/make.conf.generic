@@ -21,9 +21,10 @@ FEATURES="${FEATURES} \
 
 USE="${USE} \
 	abi_x86_32 \
-	bindist
+	bindist \
 	custom-cflags \
 	custom-optimization \
+	dolphin \
 	gles2 \
 	lm-sensors \
 	lto \

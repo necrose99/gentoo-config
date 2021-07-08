@@ -6,6 +6,7 @@ kde-plasma/plasma-meta
 mail-client/thunderbird
 media-gfx/gimp
 media-gfx/xsane
+media-sound/alsa-utils
 media-sound/apulse
 media-sound/audacity
 media-sound/bluez-alsa
