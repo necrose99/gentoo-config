@@ -6,4 +6,5 @@ dev-util/pvs-studio
 dev-vcs/gitstats
 dev-vcs/repo
 sci-electronics/kicad-meta
+sys-apps/uuu
 sys-kernel/linux-docs

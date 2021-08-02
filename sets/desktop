@@ -15,5 +15,6 @@ media-video/simplescreenrecorder
 media-video/smplayer
 net-ftp/filezilla
 net-misc/nextcloud-client
+net-misc/youtube-dl
 sys-block/gparted
 x11-apps/xhost
