@@ -8,8 +8,8 @@ source /etc/portage/custom/hardware/video/generic
 DISTDIR="/home/ftp/distfiles"
 PORTDIR="/usr/portage"
 
-PYTHON_SINGLE_TARGET="python3_8"
-PYTHON_TARGETS="python2_7 python3_8"
+PYTHON_SINGLE_TARGET="python3_9"
+PYTHON_TARGETS="python2_7 python3_9"
 
 L10N="en uk"
 

@@ -4,7 +4,6 @@ app-admin/mcelog
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
-app-arch/hardlink
 app-arch/p7zip
 app-arch/pbzip2
 app-arch/pigz

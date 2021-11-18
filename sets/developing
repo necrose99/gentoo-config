@@ -1,4 +1,3 @@
-dev-embedded/urjtag
 app-arch/upx
 app-benchmarks/bootchart2
 app-doc/doxygen
@@ -6,6 +5,7 @@ app-emulation/docker
 app-emulation/virt-manager
 app-i18n/enca
 app-misc/binwalk
+app-misc/tmux
 app-portage/repoman
 app-text/sloccount
 dev-db/myodbc
@@ -14,6 +14,7 @@ dev-embedded/esptool
 dev-embedded/openocd
 dev-embedded/stlink
 dev-embedded/u-boot-tools
+dev-embedded/urjtag
 dev-lang/gprolog
 dev-python/GitPython
 dev-util/abi-compliance-checker
