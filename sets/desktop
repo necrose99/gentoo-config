@@ -1,4 +1,5 @@
 app-office/libreoffice
+dev-java/openjdk-bin:11
 kde-apps/kde-apps-meta
 kde-apps/yakuake
 kde-misc/openofficeorg-thumbnail
@@ -10,7 +11,7 @@ media-sound/alsa-utils
 media-sound/apulse
 media-sound/audacity
 media-sound/bluez-alsa
-media-sound/clementine
+media-sound/strawberry
 media-video/simplescreenrecorder
 media-video/smplayer
 net-ftp/filezilla
