@@ -18,6 +18,7 @@ dev-embedded/urjtag
 dev-lang/gprolog
 dev-python/GitPython
 dev-util/abi-compliance-checker
+dev-util/android-tools
 dev-util/bsdiff
 dev-util/ccache
 dev-util/cgdb
