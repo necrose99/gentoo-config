@@ -1,6 +1,9 @@
 dev-qt/qtmultimedia gstreamer
+kde-apps/kde-apps-meta pim
 kde-apps/kdenetwork-meta dropbox -telepathy
+kde-apps/kdepim-addons importwizard markdown
 kde-apps/kdeutils-meta 7zip gpg rar
+kde-apps/mailcommon designer
 kde-plasma/plasma-meta grub
 kde-plasma/powerdevil -wireless
 media-libs/freetype harfbuzz
