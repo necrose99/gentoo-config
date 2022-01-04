@@ -1,5 +1,5 @@
 app-doc/kicad-doc html
 app-text/texlive-core xetex
 dev-libs/boost context
-sci-electronics/kicad doc examples github
-sci-electronics/kicad-meta doc
+sci-electronics/kicad -doc examples github
+sci-electronics/kicad-meta -doc
