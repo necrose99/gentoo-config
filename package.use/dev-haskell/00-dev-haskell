@@ -1,0 +1,5 @@
+dev-haskell/*  hoogle  hscolour  profile executable
+
+dev-haskell/hashable random-initial-seed
+
+dev-haskell/hashtables hoogle   hscolour  profile  bounds-checking detailed-profiling

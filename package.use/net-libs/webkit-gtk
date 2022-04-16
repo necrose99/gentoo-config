@@ -1,0 +1,3 @@
+net-libs/webkit-gtk X egl geolocation gstreamer introspection jpeg2k jumbo-build libnotify 
+
+net-libs/webkit-gtk opengl seccomp spell wayland gamepad gnome-keyring -gtk-doc

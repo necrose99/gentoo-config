@@ -1,1 +1,1 @@
-net-wireless/gqrx gr-audio
+net-wireless/gqrx -pulseaudio portaudio -gr-audio

@@ -376,7 +376,8 @@ kde-apps/dolphin semantic-desktop thumbnail
 kde-apps/dolphin-plugins git
 kde-apps/gwenview kipi semantic-desktop
 kde-base/baloo minimal
-kde-base/kactivities minimal semantic-desktop
+# move kde-base/kactivities kde-frameworks/kactivities
+kde-frameworks/kactivities minimal semantic-desktop
 kde-apps/kdebase-runtime-meta semantic-desktop
 kde-apps/kdebase-kioslaves samba
 kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
@@ -389,7 +390,8 @@ kde-apps/kopete addbookmarks alias autoreplace connectionstatus contactnotes gad
 kde-apps/krdc vnc
 kde-base/krunner xcomposite
 kde-apps/ktp-common-internals otr
-kde-base/kwin captury xcomposite
+# move kde-base/kwin kde-plasma/kwin
+kde-plasma/kwin captury xcomposite
 # Required by plasma-workspace
 kde-base/libplasmaclock semantic-desktop
 kde-apps/marble plasma
@@ -722,11 +724,13 @@ net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls i
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
 # bug 3508
-net-misc/networkmanager-openvpn gtk
+# move net-misc/networkmanager-openvpn net-vpn/networkmanager-openvpn
+net-vpn/networkmanager-openvpn gtk
 net-misc/networkmanager-openswan gtk
 net-misc/networkmanager-openconnect gtk
 net-misc/networkmanager-pptp gtk
-net-misc/networkmanager-vpnc gnome
+# move net-misc/networkmanager-vpnc net-vpn/networkmanager-vpnc
+net-vpn/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/openssh -X
 net-misc/openssh -ldap
@@ -738,7 +742,8 @@ net-misc/remmina vnc vte ssh freerdp
 # Add xattr support to rsync
 net-misc/rsync xattr
 net-misc/tigervnc -java server
-net-misc/tor threads
+# move net-misc/tor net-vpn/tor
+net-vpn/tor threads
 net-misc/vinagre -avahi
 net-misc/x2goserver sqlite
 
@@ -1225,7 +1230,8 @@ sys-libs/libaal static-libs
 games-puzzle/gnome-sudoku python_targets_python3_4 python_single_target_python3_4 -python_single_target_python3_3
 media-sound/gnome-music python_targets_python3_4 python_single_target_python3_4 -python_single_target_python3_3
 media-gfx/eog-plugins python_targets_python3_4 python_single_target_python3_4 -python_single_target_python3_3
-x11-apps/intel-gpu-tools python_targets_python3_4 python_single_target_python3_4
+# move x11-apps/intel-gpu-tools x11-apps/igt-gpu-tools
+x11-apps/igt-gpu-tools python_targets_python3_4 python_single_target_python3_4
 media-video/transmageddon python_targets_python3_4 python_single_target_python3_4
 
 # Enable caps, since threads is enabled by default
@@ -1236,7 +1242,8 @@ sys-cluster/galera garbd
 
 # Enabling apparmor aufs btrfs overlay useflag to docker
 sys-libs/libapparmor static-libs
-app-emulation/docker apparmor aufs btrfs overlay seccomp
+# move app-emulation/docker app-containers/docker
+app-containers/docker apparmor aufs btrfs overlay seccomp
 
 # Fails  https://bugs.gentoo.org/show_bug.cgi?id=571650
 x11-misc/xplanet -gif
@@ -1261,4 +1268,5 @@ dev-java/oracle-jdk-bin javafx -nsplugin
 
 # -nsplugin: conflicts with dev-java/icedtea-web[nsplugin]
 dev-java/oracle-jre-bin -nsplugin
-app-emulation/runc apparmor
+# move app-emulation/runc app-containers/runc
+app-containers/runc apparmor

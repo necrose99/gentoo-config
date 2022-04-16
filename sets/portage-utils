@@ -7,7 +7,8 @@ acct-user/portage
 acct-group/portage
 
 app-portage/gemato 
-app-crypt/openpgp-keys-gentoo-release
+# move app-crypt/openpgp-keys-gentoo-release sec-keys/openpgp-keys-gentoo-release
+sec-keys/openpgp-keys-gentoo-release
 ## portage upgrade dep if needed rebuild ensure these get rebuilt ie python deps.  ie gentoo moves python-3.8 to 3.9 10 etc... 
 
 sys-apps/portage

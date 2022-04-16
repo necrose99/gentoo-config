@@ -1,1 +1,1 @@
-/var/db/repos/lto-overlay/sys-config/ltoize/files/bashrc.d/43-lto-no-common.sh
+/var/db/repos/gentooLTO/sys-config/ltoize/files/bashrc.d/43-lto-no-common.sh

@@ -1,0 +1,49 @@
+#This is the default Pentoo make.conf file, it controls many basic system settings.
+#You can find information on how to edit this file in "man make.conf" as well as
+#on the web at https://wiki.gentoo.org/wiki/etc/portage/make.conf
+
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+ACCEPT_KEYWORDS="~amd64"
+
+ACCEPT_LICENSE="*"
+
+#Please adjust your CFLAGS as desired, information can be found here: https://wiki.gentoo.org/wiki/CFLAGS
+#Do not modify these FLAGS unless you know what you are doing, always check the defaults first with "portageq envvar CFLAGS"
+#This is the default for pentoo at the time of build:
+#CFLAGS="-Os -mtune=core2 -pipe -ggdb -frecord-gcc-switches"
+#A safe choice would be to keep whatever Pentoo defaults are, but optimize for your specific machine:
+#CFLAGS="${CFLAGS} -march=native"
+#If you do change your CFLAGS, it is best for all the compile flags to match so uncomment the following three lines:
+#CXXFLAGS="${CFLAGS}"
+#FCFLAGS="${CFLAGS}"
+#FFLAGS="${CFLAGS}"
+
+LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64  ARM  RISCV WebAssembly "
+
+#Please adjust your use flags, if you don't use gpu cracking, it is probably safe to remove opencl
+#Currently opencl is only supported on nvidia gpu, so if you drop nvidia from VIDEO_CARDS, drop opencl
+USE="opencl wayland compile-locales suid systemtap audit qml gold xar tcl"
+
+#MAKEOPTS is set automatically by the profile to jobs equal to processors, you do not need to set it.
+
+#Default VIDEO_CARDS setting enables nearly everything, you can enable fewer here if you like:
+#VIDEO_CARDS="nvidia nouveau amdgpu radeon"
+#Intel gpu should use modesetting driver which isn't optional but the recommended setting is: VIDEO_CARDS="intel i965"
+#you can check available options with "emerge -vp xorg-drivers"
+
+# EMERGE_DEFAULT_OPTS is set automatically by livecd-tools autoconfig during first live boot.
+# This should be equal to number of processors, see "man emerge" for details.
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=4 --load-average=4"
+PORTDIR=/var/db/repos/gentoo
+
+
+
+PORTAGE_BINHOST="
+https://pentoo.osuosl.org/Packages/amd64-hardened/
+https://www.pentoo.ch/isos/Packages/amd64-hardened/
+http://mirror.math.princeton.edu/pub/redcorelinux/packages-next/
+http://mirror.math.princeton.edu/pub/redcorelinux/packages/
+http://mirrors.redcorelinux.org/redcorelinux/packages/
+"
+

@@ -1,0 +1,23 @@
+media-video/ffmpeg  
+### pulseaudio being droped for pipewire
+
+media-video/ffmpeg X alsa amr bluray bzip2 chromium cpudetection 
+
+media-video/ffmpeg dav1d encode gmp gnutls gpl gsm iconv ieee1394 
+
+media-video/ffmpeg jack lzma mp3 network openal opencl opengl openssl 
+
+media-video/ffmpeg opus oss pic postproc samba sdl speex svg theora threads 
+
+media-video/ffmpeg truetype v4l vaapi vdpau vorbis vpx 
+
+media-video/ffmpeg vulkan webp x264 x265 xvid zlib amf amrenc  
+
+media-video/ffmpeg  bs2b cdio chromaprint codec2 cuda fdk
+media-video/ffmpeg flite fontconfig frei0r fribidi gcrypt gme 
+media-video/ffmpeg iec61883  jpeg2k  kvazaar  ladspa  libaom  libaribb24 
+media-video/ffmpeg libass libcaca libdrm libilbc librtmp libsoxr 
+media-video/ffmpeg libtesseract libv4l libxml2 lv2 mipsdspr1 mipsdspr2 mipsfpu mmal 
+media-video/ffmpeg modplug  nvenc  openh264 rav1e  rubberband  snappy  sndio  srt  ssh 
+media-video/ffmpeg modplug svtav1 twolame  vidstab  vmaf  zeromq  zimg zvbi 
+ 

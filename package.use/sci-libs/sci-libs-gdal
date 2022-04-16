@@ -1,1 +1,4 @@
-sci-libs/gdal aux_xml curl geos gif jpeg jpeg2k pdf perl png python sqlite opencl gml hdf5 java spatialite webp xls
+sci-libs/gdal aux_xml curl geos gif jpeg jpeg2k pdf perl png python sqlite opencl gml hdf5 
+sci-libs/gdal java spatialite webp xls threads
+sci-libs/gdal lzma opencl pdf perl png python spatialite sqlite  webp xls zstd 
+sci-libs/gdal armadillo fits  heif mdb mysql netcdf  odbc  ogdi 

@@ -1,0 +1,7 @@
+[panther]
+priority = 50
+location = /var/db/repos/panther
+layman-type = git
+sync-type = laymansync
+sync-uri = https://github.com/orangeturtle739/panther.git
+auto-sync = Yes

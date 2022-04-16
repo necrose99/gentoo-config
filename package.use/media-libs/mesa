@@ -1,2 +1,69 @@
 # Per https://wiki.gentoo.org/wiki/Raspberry_Pi_VC4
-media-libs/mesa -classic xa xvmc
+media-libs/mesa classic xa xvmc gles1 gles2 llvm lm-sensors osmesa unwind  vaapi valgrind vdpau vulkan vulkan-overlay
+media-libs/mesa opencl X d3d9  wayland zink zstd opencl classic egl gallium gbm
+
+###
+#Cards / video_cards_ X86/64
+##
+
+media-libs/mesa video_cards_r300 video_cards_r300 video_cards_r600 video_cards_crocus video_cards_glint 
+
+media-libs/mesa video_cards_i915 video_cards_i965 video_cards_mga
+
+media-libs/mesa  video_cards_freedreno video_cards_fbdev video_cards_intel video_cards_radeon video_cards_radeonsi video_cards_nouveau
+
+media-libs/mesa  video_cards_nvidia video_cards_nv  video_cards_amdgpu video_cards_via video_cards_vivante video_cards_geode
+
+### 
+#Cards / video_cards_ Arm/64
+
+media-libs/mesa  video_cards_panfrost  video_cards_lima  video_cards_tegra video_cards_v3d video_cards_vc4 video_cards_exynos
+
+media-libs/mesa   video_cards_iris  video_cards_imx video_cards_omap video_cards_siliconmotion video_cards_ast 
+
+###
+#Cards / video_cards_ Emulation Vmware/qemu etc. 
+
+media-libs/mesa video_cards_virgl video_cards_virtualbox video_cards_vmware video_cards_qxl video_cards_vesa 
+
+
+
+#video_cards_mga	VIDEO_CARDS setting to build driver for mga video cards
+#video_cards_nouveau	VIDEO_CARDS setting to build reverse-engineered driver for nvidia cards
+#video_cards_nvidia	VIDEO_CARDS setting to build driver for nvidia video cards
+#video_cards_nv	VIDEO_CARDS setting to build driver for nv video cards
+#video_cards_omap	VIDEO_CARDS setting to build DRM driver for TI OMAP video cards
+#video_cards_qxl	VIDEO_CARDS setting to build driver for qxl (QEMU virtual GPU)
+#video_cards_panfrost	VIDEO_CARDS setting to build driver for Mali 600/700/800 video cards
+#video_cards_r100	VIDEO_CARDS setting to build only r100 based chips code for radeon
+#video_cards_r128	VIDEO_CARDS setting to build driver for ATI r128 video cards
+#video_cards_r200	VIDEO_CARDS setting to build only r200 based chips code for radeon
+#video_cards_r300	VIDEO_CARDS setting to build only r300, r400 and r500 based chips code for radeon
+#video_cards_freedreno	VIDEO_CARDS setting to build reverse-engineered driver for Qualcomm Adreno cards
+#video_cards_geode	VIDEO_CARDS setting to build driver for AMD Geode GX and LX video cards
+#video_cards_glint	VIDEO_CARDS setting to build driver for glint video cards
+#video_cards_i915	VIDEO_CARDS setting to build driver for Intel i915 video cards
+#video_cards_i965	VIDEO_CARDS setting to build driver for Intel i965 video cards
+#video_cards_imx	VIDEO_CARDS setting to build driver for Freescale i.MX video cards
+#video_cards_intel	VIDEO_CARDS setting to build driver for Intel video cards
+#video_cards_iris	VIDEO_CARDS setting to build driver for Intel video cards Gen8 / Broadwell or newer
+#video_cards_lima	VIDEO_CARDS setting to build driver for Mali 200/400 video cards
+#video_cards_amdgpu	VIDEO_CARDS setting to build driver for AMDGPU video cards
+#video_cards_ast	VIDEO_CARDS setting to build driver for ASpeedTech video cards
+#video_cards_crocus	VIDEO_CARDS setting to build driver for Intel video cards Gen4-Gen7
+#video_cards_dummy	VIDEO_CARDS setting to build driver for dummy video cards
+#video_cards_exynos	VIDEO_CARDS setting to build driver for Samsung Exynos video cards
+#video_cards_fbdev	VIDEO_CARDS setting to build driver for fbdev video cards
+#video_cards_r600	VIDEO_CARDS setting to build only r600, r700, Evergreen and Northern Islands based chips code for radeon
+#video_cards_radeon	VIDEO_CARDS setting to build driver for ATI radeon video cards
+#video_cards_radeonsi	VIDEO_CARDS setting to build only Southern Islands based chips code for radeon
+#video_cards_siliconmotion	VIDEO_CARDS setting to build driver for siliconmotion video cards
+#video_cards_tegra	VIDEO_CARDS setting to build driver for tegra video cards
+#video_cards_v3d	VIDEO_CARDS setting to build driver for v3d video cards
+#video_cards_vc4	VIDEO_CARDS setting to build driver for vc4 video cards
+#video_cards_vesa	VIDEO_CARDS setting to build driver for vesa video cards
+#video_cards_via	VIDEO_CARDS setting to build driver for via video cards
+#video_cards_virgl	VIDEO_CARDS setting to build driver for virgil (virtual 3D GPU)
+#video_cards_vivante	VIDEO_CARDS setting to build etnaviv driver for vivante video cards
+#video_cards_virtualbox	VIDEO_CARDS setting to build driver for virtualbox emulation
+#video_cards_vmware	VIDEO_CARDS setting to build driver for vmware video cards

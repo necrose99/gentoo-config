@@ -1,0 +1,60 @@
+app-emulation/qemu io-uring iscsi jack jemalloc jpeg lzo multipath ncurses nfs nls numa opengl
+app-emulation/qemu  pam pin-upstream-blobs plugins png python sasl sdl sdl-image seccomp 
+app-emulation/qemu slirp smartcard snappy spice ssh systemtap udev usb usbredir vde vhost-net
+app-emulation/qemu vhost-user-fs virgl virtfs vnc vte xattr xen xfs zstd
+app-emulation/qemu bpf capstone fuse infiniband
+## desirable however comes with more thorns to enable for now.. 
+#
+app-emulation/qemu  -rbd 
+# ceph = -rbd google-pref no comp.. 
+## virtfs snappy would be also usefull  bud force static deps.. 
+##
+## for now on arm64 glusterfs is being a pest. as is google profile tool compile error. 
+
+#USE="accessibility aio alsa bpf bzip2 caps capstone curl doc fdt filecaps fuse glusterfs gnutls gtk infiniband 
+# io-uring iscsi jack jemalloc jpeg lzo multipath ncurses nfs nls numa opengl 
+# oss pam pin-upstream-blobs plugins png python sasl sdl sdl-image seccomp 
+# slirp smartcard snappy spice ssh systemtap udev usb usbredir vde vhost-net 
+# vhost-user-fs virgl virtfs vnc vte xattr xen xfs zstd 
+# -debug -pulseaudio -rbd (-selinux) -static -static-user -test"
+
+#pulseaudio drop... 
+app-emulation/qemu  pipewire alsa jack oss
+
+#PYTHON_TARGETS="python3_8 python3_9 python3_10" 
+#QEMU_SOFTMMU_TARGETS="aarch64 aarch64_be  arm cris m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64 -alpha -hppa i386 -lm32 -microblazeel -moxie -nios2 -or1k riscv32 riscv64 -s390x -tricore -unicore32 x86_64  -xtensa -xtensaeb" 
+
+## targets qemu_user_targets_tilegx
+
+app-emulation/qemu qemu_softmmu_targets_lm32 qemu_softmmu_targets_moxie qemu_softmmu_targets_aarch64 qemu_softmmu_targets_alpha qemu_softmmu_targets_arm	
+#
+app-emulation/qemu qemu_softmmu_targets_avr qemu_softmmu_targets_cris qemu_softmmu_targets_hppa	qemu_softmmu_targets_i386	
+#
+app-emulation/qemu qemu_softmmu_targets_m68k qemu_softmmu_targets_microblazeel qemu_softmmu_targets_microblaze	
+#
+app-emulation/qemu qemu_softmmu_targets_mips64el qemu_softmmu_targets_mips64 qemu_softmmu_targets_mipsel qemu_softmmu_targets_mips
+# 
+app-emulation/qemu qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_unicore32	qemu_softmmu_targets_ppc64	
+#
+app-emulation/qemu qemu_softmmu_targets_ppc qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_rx	  
+#
+app-emulation/qemu qemu qemu_softmmu_targets_s390x qemu_softmmu_targets_sh4eb qemu_softmmu_targets_sh4	
+#
+app-emulation/qemu qemu_softmmu_targets_sparc qemu_softmmu_targets_sparc64 qemu_softmmu_targets_tricore qemu_softmmu_targets_x86_64 qemu_softmmu_targets_xtensaeb qemu_softmmu_targets_xtensa
+
+#QEMU_USER_TARGETS="aarch64 alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64 aarch64_be -hppa -microblazeel mips64 mips64el mipsn32 mipsn32el -nios2 -or1k ppc64le -riscv32 -riscv64 -s390x -tilegx -xtensa -xtensaeb" 
+
+app-emulation/qemu qemu_user_targets_tilegx qemu_user_targets_sparc64 qemu_user_targets_sparc	
+
+app-emulation/qemu qemu_user_targets_x86_64 qemu_user_targets_xtensaeb	qemu_user_targets_xtensa qemu_user_targets_aarch64 qemu_user_targets_aarch64_be	
+
+app-emulation/qemu qemu_user_targets_alpha qemu_user_targets_arm qemu_user_targets_armeb	
+
+app-emulation/qemu qemu_user_targets_cris qemu_user_targets_hexagon qemu_user_targets_hppa qemu_user_targets_i386 qemu_user_targets_m68k qemu_user_targets_microblazeel	qemu_user_targets_microblaze	
+
+app-emulation/qemu qemu_user_targets_mips64el qemu_user_targets_mips64	qemu_user_targets_mipsel qemu_user_targets_mipsn32el qemu_user_targets_mipsn32	
+ 	
+app-emulation/qemu  qemu_user_targets_mips  qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_ppc64abi32 qemu_user_targets_ppc64l qemu_user_targets_ppc64 qemu_user_targets_ppc64le	 
+
+app-emulation/qemu qemu_user_targets_ppc qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_s390x qemu_user_targets_sh4eb qemu_user_targets_sh4 qemu_user_targets_sparc32plus	
+	

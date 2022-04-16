@@ -1,1 +1,5 @@
-sys-cluster/ceph -tcmalloc gtk ldap libaio -nss radosgw  babeltrace cephfs cryptopp -debug fuse mgr libatomic lttng  xfs zfs
+sys-cluster/ceph -tcmalloc gtk ldap libaio nss radosgw  babeltrace cephfs cryptopp  fuse mgr libatomic lttng  xfs zfs
+
+sys-cluster/ceph diskprediction dpdk  pmdk rbd-rwl rbd-ssd rgw-lua spdk rabbitmq 
+
+sys-cluster/ceph uring zbd python_targets_python3_10 -python_targets_python3_7

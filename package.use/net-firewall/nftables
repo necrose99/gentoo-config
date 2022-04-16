@@ -1,0 +1,5 @@
+net-firewall/nftables python json
+
+net-firewall/nftables gmp modern-kernel readline verify-sig xtables
+
+#-libedit -static-libs

@@ -1,7 +1,0 @@
-dev-libs/liblog
-dev-libs/libtools
-dev-python/kaitaistruct
-dev-util/cmake-abicc
-dev-util/cmake-doxygen
-dev-util/cmake-uninstall
-dev-util/cmake-version4git

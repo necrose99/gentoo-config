@@ -1,1 +1,3 @@
 perl-gcpan
+cross-x86_64-w64-mingw32
+cross-aarch64-w64-mingw32

@@ -1,0 +1,8 @@
+app-admin/sudo  nls offensive pam sasl secure-path sendmail ssl verify-sig
+
+
+app-admin/sudo ldap  sssd 
+
+
+#T'r can be only 1!!
+#gcrypt / ssl skey

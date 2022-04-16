@@ -1,2 +1,7 @@
 sys-devel/gcc cxx  fortran hardened lto multilib nls nptl openmp pgo pie sanitize ssp systemtap vtv zstd 
-sys-devel/gcc ada d go graphite objc objc++ objc-gc pch
+sys-devel/gcc ada d go graphite objc objc++ objc-gc pch valgrind
+
+
+
+dev-lang/gnat-gpl fortran hardened lto multilib nls nptl openmp pgo pie sanitize ssp systemtap vtv zstd 
+dev-lang/gnat-gpl ada d go graphite objc objc++ objc-gc pch valgrind

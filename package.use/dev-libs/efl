@@ -1,0 +1,23 @@
+dev-libs/efl drm gstreamer sound svg system-lz4 tiff v4l vnc wayland webp xpm zeroconf
+
+dev-libs/efl  avif bmp connman dds  drm  efl-one 
+
+dev-libs/efl  fribidi  glib  gnutls  harfbuzz  heif  hyphen  ico  jpeg2k json 
+
+dev-libs/efl mono opengl  physics  pmaps  postscript  psd  raw  scim  sdl 
+
+dev-libs/efl tga  tgv  tslib  unwind  xcf xim  xpresent 
+
+#Die pulseadio
+dev-libs/efl -pulseaudio alsa pipewire -tslib -nftables
+
+
+
+#dev-libs/efl 
+#USE="X eet elogind fbcon fontconfig gif gstreamer ibus nls pdf 
+#pulseaudio sound svg system-lz4 tiff v4l vnc wayland webp xpm zeroconf 
+#-avif -bmp -connman -dds -debug -doc -drm (-efl-one) -examples -fribidi 
+#-glib -gnutls -harfbuzz -heif -hyphen -ico -jpeg2k -json (-mono) -
+# opengl -physics -pmaps -postscript -psd -raw 
+# -scim -sdl -systemd -tga -tgv -tslib -unwind -xcf -xim -xpresent 
+# ABI_X86="(64)" LUA_SINGLE_TARGET="lua5-1 -luajit"

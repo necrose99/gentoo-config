@@ -1,0 +1,5 @@
+app-text/texlive X cjk png xml context extra games graphics humanities luatex metapost music pdfannotextractor pstricks publishers science tex4ht texi2html truetype xetex
+
+#USE="X cjk png xml -context -extra -games -graphics -humanities -luatex -metapost -music (-pdfannotextractor) -pstricks -publishers -science -tex4ht -texi2html -truetype -xetex" 
+
+#L10N="af ar bg bn br ca cs cy da de el en eo es et eu fa fi fr ga gl gu he hi hr hu is it ja ko lt lv mn nb nl nn pa pl pt ro ru sk sl sr sv ta tr uk vi zh -as -hsb -hy -ia -id -kn -la -lo -ml -mr -no -or -rm -sa -sco -sq -te -th -tk"

@@ -1,1 +1,25 @@
-media-video/vlc gnutls x264
+media-video/vlc gnutls x264 -pulseaudio pipewire alsa jack
+
+
+media-video/vlc fontconfig gcrypt gnome-keyring gui ieee1394 jack jpeg libass
+
+media-video/vlc libcaca libnotify libsamplerate live lua mad matroska mp3 mpeg mtp 
+
+media-video/vlc musepack ncurses ogg opus png samba shout sid skins speex ssl taglib 
+
+media-video/vlc theora truetype udev upnp v4l vaapi vnc wayland x264 x265 xml zeroconf
+
+media-video/vlc aom archive aribsub chromaprint dav1d dc1394 faad
+
+media-video/vlc fdk fluidsynth gme gstreamer kate libtar libtiger linsys lirc 
+
+#USE="X a52 alsa bidi bluray cddb chromecast dbus dts dvbpsi dvd encode ffmpeg flac 
+#fontconfig gcrypt gnome-keyring gui ieee1394 jack jpeg libass 
+# libcaca libnotify libsamplerate live lua mad matroska mp3 mpeg mtp 
+# musepack ncurses ogg opus png samba shout sid skins speex ssl taglib 
+# theora truetype udev upnp v4l vaapi vnc wayland x264 x265 xml zeroconf 
+# -aom -archive -aribsub -chromaprint -dav1d -dc1394 -debug (-directx) -faad 
+# -fdk -fluidsynth -gme -gstreamer -kate -libtar -libtiger -linsys -lirc 
+# -macosx-notifications -modplug -nfs -omxil -optimisememory -projectm -pulseaudio 
+# -rdp -run-as-root -sdl-image -sftp -soxr -srt -svg -test -tremor -twolame -vdpau 
+# -vpx -zvbi (-qt5)" CPU_FLAGS_X86="mmx sse" LUA_SINGLE_TARGET="lua5-1" 25775 KiB

@@ -1,0 +1,4 @@
+## inital setup of haskell
+#dev-lang/ghc stage3-bootstrap binary
+
+#dev-haskell/cabal stage3-bootstrap  -profile -hoogle -hscolour

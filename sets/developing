@@ -1,7 +1,8 @@
 app-arch/upx
 app-benchmarks/bootchart2
 app-doc/doxygen
-app-emulation/docker
+# move app-emulation/docker app-containers/docker
+app-containers/docker
 app-emulation/virt-manager
 app-i18n/enca
 app-misc/binwalk

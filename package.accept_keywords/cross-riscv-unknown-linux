@@ -1,0 +1,4 @@
+cross-riscv-unknown-linux/binutils * ~* -amd64 -~amd64
+cross-riscv-unknown-linux/gcc * ~* -amd64 -~amd64
+cross-riscv-unknown-linux/linux-headers * ~* -amd64 -~amd64
+cross-riscv-unknown-linux/gdb * ~* -amd64 -~amd64

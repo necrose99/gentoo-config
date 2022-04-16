@@ -1,0 +1,4 @@
+cross-riscv64-unknown-linux/binutils cross-riscv64-unknown-linux/binutils.conf
+cross-riscv64-unknown-linux/gcc cross-riscv64-unknown-linux/gcc.conf
+cross-riscv64-unknown-linux/linux-headers cross-riscv64-unknown-linux/linux-headers.conf
+cross-riscv64-unknown-linux/gdb cross-riscv64-unknown-linux/gdb.conf

@@ -1,0 +1,3 @@
+app-arch/* zstd
+
+app-arch/dpkg bzip2 libmd lzma nls unicode update-alternatives zlib 

@@ -1,0 +1,10 @@
+dev-libs/libxml2 python
+net-dns/dnsmasq script
+net-firewall/iptables ipv6
+net-misc/spice-gtk usbredir smartcard vala
+
+
+app-emulation/libvirt audit bash-completion caps dtrace firewalld fuse 
+app-emulation/libvirt iscsi libssh libvirtd lvm lxc nfs nls numa parted pcap policykit qemu 
+app-emulation/libvirt rbd sasl udev verify-sig virt-network virtualbox wireshark-plugins xen 
+app-emulation/libvirt apparmor glusterfs  iscsi-direct  libssh2  openvz  zfs 

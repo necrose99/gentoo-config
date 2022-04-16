@@ -8,7 +8,7 @@ dev-libs/libxslt abi_x86_32
 media-libs/alsa-lib abi_x86_32
 media-libs/glu abi_x86_32
 media-libs/lcms abi_x86_32
-media-libs/libsdl2 abi_x86_32 -vulkan
+media-libs/libsdl2 abi_x86_32 vulkan
 media-libs/libv4l abi_x86_32
 media-libs/vulkan-loader abi_x86_32
 media-sound/mpg123 abi_x86_32

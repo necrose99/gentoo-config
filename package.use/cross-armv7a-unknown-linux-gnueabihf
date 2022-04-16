@@ -1,0 +1,5 @@
+cross-armv7a-unknown-linux-gnueabihf/binutils -multilib
+cross-armv7a-unknown-linux-gnueabihf/linux-headers -selinux -multilib
+cross-armv7a-unknown-linux-gnueabihf/glibc -selinux -libraries -multilib
+cross-armv7a-unknown-linux-gnueabihf/gcc -selinux -multilib
+cross-armv7a-unknown-linux-gnueabihf/gdb -selinux -multilib

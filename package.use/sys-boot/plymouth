@@ -1,0 +1,3 @@
+sys-boot/plymouth libkms split-usr static-libs udev gtk pango
+
+sys-boot/plymouth-openrc-plugin

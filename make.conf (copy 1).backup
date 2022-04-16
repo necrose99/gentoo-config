@@ -1,0 +1,103 @@
+#This is the default Pentoo make.conf file, it controls many basic system settings.
+#You can find information on how to edit this file in "man make.conf" as well as
+#on the web at https://wiki.gentoo.org/wiki/etc/portage/make.conf
+
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+
+#Please adjust your CFLAGS as desired, information can be found here: https://wiki.gentoo.org/wiki/CFLAGS
+#Do not modify these FLAGS unless you know what you are doing, always check the defaults first with "portageq envvar CFLAGS"
+#This is the default for pentoo at the time of build:
+#CFLAGS="-Os -mtune=core2 -pipe -frecord-gcc-switches"
+#A safe choice would be to keep whatever Pentoo defaults are, but optimize for your specific machine:
+# Compiler stuff
+GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
+#CFLAGS="${CFLAGS} -march=native"
+#If you do change your CFLAGS, it is best for all the compile flags to match so uncomment the following three lines:
+CHOST="x86_64-pc-linux-gnu"
+CFLAGS="-march=skylake -O2 -pipe -ftree-vectorize ${GRAPHITE}""
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+MAKEOPTS="-j8 -s"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=8 --load-average=12"
+# Compiler stuff
+
+# Portage stuff
+# EMERGE_DEFAULT_OPTS is set automatically by livecd-tools autoconfig during first live boot.
+# This should be equal to number of processors, see "man emerge" for details.
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=12 --load-average=12"
+ACCEPT_KEYWORDS="~amd64"
+FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
+CCACHE_SIZE="2G"
+CCACHE_DIR="/var/ccache"
+ACCEPT_KEYWORDS="amd64 ~amd64"
+
+ACCEPT_LICENSE="* @FREE"
+LINGUAS="${L10N}"
+L10N="en af ar az bg bn br bs ca cs cy da de el en-GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt-BR ro ru rw se sk sl sr sr-Latn ss sv ta tg tr uk uz vi zh-CN zh-TW es-AR es-ES fy ga gu nb nn pt-PT sv zh"
+
+## USE ##
+#PEN_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd"
+PEN_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr ffmpeg dvi mp3rtp xine cddb alsa dvb dvd bluray network dvdread audiofile artswrappersuid dvdr jack dri cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2"
+PEN_CODECS="x264 x265 gsm lame opus dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
+PEN_SYSTEM="cjk unicode gnutls nptl gcj udev  logind kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
+PEN_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
+PEN_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
+PEN_XSYS="cairo X opengl png gif gtk qt5 xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr wayland" 
+PEN_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+PEN_BROWSER="nsplugin firefox mozdevelop xulrunner"
+PEN_COMMS="jabber msn yahoo icq irc aim rss slp mail imap http2"
+
+USE="${PEN_BAD} ${PEN_MEDIA} ${PEN_CODECS} ${PEN_SYSTEM} ${PEN_FILESYS} ${PEN_PRINT} ${PEN_XSYS} ${PEN_DESKTOP} ${PEN_BROWSER} ${PEN_COMMS} ${USE}"	
+
+#Please adjust your use flags, if you don't use gpu cracking, it is probably safe to remove opencl
+#Currently opencl is only supported on nvidia gpu, so if you drop nvidia from VIDEO_CARDS, drop opencl
+USE="${USE} opencl vulkan ibus vnc wayland eglfs webp audit libssh dtrace firewalld xen sasl virtualbox wireshark-plugins pch qml cacao nsplugin webstart jamvm"
+LVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 -ARC ARM -AVR -Hexagon -Lanai MSP430 Mips -PowerPC RISCV -Sparc -SystemZ WebAssembly -XCore"
+
+
+## DEVICES ##
+INPUT_DEVICES="evdev void"
+VIDEO_CARDS="fbdev vesa radeonsi radeon intel amdgpu  i965 nvidia"
+#Intel gpu should use modesetting driver which isn't optional but the recommended setting is: VIDEO_CARDS="intel i965"
+#you can check available options with "emerge -vp xorg-drivers"
+LIRC_DEVICES="audio audio_alsa devinput pctv"
+ALSA_CARDS="emu10k1x darla20 darla24 emu10k1 gina20 gina24 hdsp hdspm ice1712 indigo indigoio layla20 layla24 mia mixart mona pcxhr rme32 rme96 sb16 sbawe sscape usbusx2y vx222 usb-usx2y"
+CAMERAS="agfa_cl20 casio_qv dimagev dimera3500 kodak_dc120 kodak_dc210 kodak_dc240 kodak_dc3200 kodak_ez200 konica_qm150 panasonic_coolshot panasonic_dc1000 panasonic_dc1580 panasonic_l859 polaroid_pdc320 polaroid_pdc640 polaroid_pdc700 ricoh_g3 sipix_blink sipix_blink2 sipix_web2 sony_dscf1 sony_dscf55 toshiba_pdrm11 adc65 aox barbie canon clicksmart310 digigr8 digita directory enigma13 fuji gsmart300 hp215 iclick jamcam jd11 konica largan lg_gsm mars mustek pccam300 pccam600 ptp2 ricoh samsung sierra smal sonix soundvision spca50x sq905 stv0674 stv0680 sx330z template"
+
+## OFFICE ##
+LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
+
+## QEMU ##
+QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64"
+QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
+
+
+## PORTAGE CONFIG ##
+PORTDIR_OVERLAY="/usr/local/portage"
+source /var/lib/layman/make.conf
+CONFIG_PROTECT="/usr/share/config/kdm /etc /etc/conf.d /etc/init.d"
+# /lib/modules mask is useful for our internal tinderbox
+CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
+APACHE2_MPMS="prefork"
+
+ACCEPT_LICENSE="* -@EULA"
+
+USE_PYTHON="3.7"
+PYTHON_TARGETS="python3_7"
+PYTHON_TARGETS="python3_7 python3_6 python3_8 python3_9  python2_7pypy3"
+
+# Some more forced targets
+PHP_TARGETS="php7-3"
+RUBY_TARGETS="ruby25"
+
+# Apache suEXEC default UMASK
+# See bug 3544
+SUEXEC_UMASK=022
+
+# Setup GRUB platforms
+GRUB_PLATFORMS="efi-32 efi-64 pc"
+
+
+
+RUBY_TARGETS="ruby25 ruby26 ruby27"

@@ -1,0 +1,4 @@
+cross-riscv-unknown-linux/binutils -multilib
+cross-riscv-unknown-linux/gcc -multilib
+cross-riscv-unknown-linux/linux-headers -multilib
+cross-riscv-unknown-linux/gdb -multilib

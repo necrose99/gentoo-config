@@ -1,2 +1,10 @@
 # Per https://wiki.gentoo.org/wiki/Raspberry_Pi_VC4
 x11-base/xorg-server glamor
+
+
+x11-base/xorg-server elogind kdrive suid udev wayland xcsecurity xorg xvfb dmx ipv6
+
+x11-base/xorg-server unwind 
+
+x11-base/xorg-server xephyr 
+x11-base/xorg-server xnest

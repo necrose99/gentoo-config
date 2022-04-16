@@ -1,0 +1,3 @@
+app-emulation/xen-tools hvm ipxe pam python qemu qemu-traditional rombios sdl api ocaml 
+app-emulation/xen-tools ovmf pygrub screen 
+ 

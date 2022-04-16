@@ -5,3 +5,4 @@ net-wireless/gnuradio dtv fec grc
 net-wireless/gr-osmosdr bladerf iqbalance python rtlsdr soapy
 net-wireless/soapysdr bladerf python rtlsdr
 x11-libs/wxGTK gstreamer
+net-wireless/gqrx -gr-audio -pulseaudio portaudio

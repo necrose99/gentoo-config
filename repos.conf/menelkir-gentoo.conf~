@@ -1,0 +1,11 @@
+[DEFAULT]
+main-repo = gentoo
+
+[menelkir]
+location = /var/db/repos/menelkir
+masters = gentoo
+auto-sync = yes 
+priority = 10
+
+
+sync-uri = https://gitlab.com/menelkir/gentoo-overlay.git

@@ -1,1 +1,4 @@
-net-misc/connman bluetooth ethernet iptables l2tp networkmanager nftables ofono openvpn openconnect pptp tools wifi vpnc wispr
+net-misc/connman bluetooth ethernet iptables l2tp networkmanager  
+net-misc/connman ofono openvpn openconnect pptp tools wifi vpnc wispr wireguard
+net-misc/connman -nftables
+# nftables in iptables 

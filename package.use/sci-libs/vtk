@@ -1,0 +1,5 @@
+sci-libs/vtk X json mpi openmp python qt5 rendering
+sci-libs/vtk  theora tk all-modules boost 
+sci-libs/vtk ffmpeg gdal imaging 
+sci-libs/vtk java kits mysql odbc  pegtl postgres tbb  views web
+#offscreen cuda > dev-cpp/eigen[cuda?,openmp?]"
