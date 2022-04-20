@@ -1,0 +1,18 @@
+CFLAGS="-O2 -pipe -fomit-frame-pointer \
+-march=skylake -mtune=skylake \
+--param l1-cache-size=32 \
+--param l1-cache-line-size=64 \
+--param l2-cache-size=8192"
+
+CXXFLAGS="${CFLAGS}"
+
+CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
+USE="${USE} threads smp"
+
+MAKEOPTS="--jobs 9 --load-average 7.2"
+EMERGE_DEFAULT_OPTS="--jobs 8 --load-average 7.2"
+
+#Setting D compiler flags in /etc/make.conf 
+DMDFLAGS="-O"
+GDCFLAGS="-march=skylake -mtune=skylake -O3 -pipe -frelease"
+LDCFLAGS="-O4 -release"

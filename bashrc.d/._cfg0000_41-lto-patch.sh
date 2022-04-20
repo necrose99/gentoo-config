@@ -1,0 +1,1 @@
+/var/db/repos/gentooLTO/sys-config/ltoize/files/bashrc.d/41-lto-patch.sh

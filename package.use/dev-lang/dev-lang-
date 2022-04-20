@@ -1,3 +1,10 @@
 dev-lang/go gccgo
 
 dev-lang/python bluetooth gdbm hardened ipv6 ncurses readline sqlite ssl tk xml verify-sig
+
+dev-lang/perl ithreads berkdb  gdbm
+
+#dev-lang/ruby ipv6 rdoc ssl
+
+dev-lang/ruby ipv6 rdoc ssl  berkdb  gdbm jemalloc socks5 systemtap tk 
+#xemacs
