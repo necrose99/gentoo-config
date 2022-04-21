@@ -9,3 +9,20 @@ BashrcdMain "$@"
 pre_pkg_setup() {
 	[[ $ROOT = / ]] && cfg-update --index
 }
+
+#sccache 
+export RUSTC_WRAPPER="/usr/bin/sccache"
+export SCCACHE_DIR="/var/cache/sccache"
+export SCCACHE_MAX_FRAME_LENGTH="104857600"
+#sccache
+
+#gentoo-binhost
+
+if [[ ${EBUILD_PHASE} == 'postinst' ]]; then
+  # FIXME come up with a more sophisticated approach to detect if binary package build is actually requested
+  # commandline args like -B or --buildpkg-exclude and other conditionals are not supported right now.
+  grep -q 'buildpkg' <<< {$PORTAGE_FEATURES}
+  if [ $? -eq 0 ]; then
+    /etc/portage/binhost/gh-upload.py
+  fi
+fi

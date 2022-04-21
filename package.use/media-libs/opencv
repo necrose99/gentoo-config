@@ -1,0 +1,11 @@
+media-libs/opencv contrib contribdnn cuda  download  eigen features2d ffmpeg gdal  
+
+media-libs/opencv  glog  gphoto2 gstreamer  ieee1394 java  jpeg jpeg2k  lapack  lto  opencl opencvapps  
+
+media-libs/opencv openexr opengl openmp png python qt5 tesseract  tiff v4l vaapi 
+
+media-libs/opencv vtk  webp xine  contribcvv  contribfreetype contribhdf contribovis contribsfm  
+
+media-libs/opencv contribxfeatures2d  gflags   threads avx512f
+
+#gtk3  dnnsamples

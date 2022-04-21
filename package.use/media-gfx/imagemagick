@@ -1,1 +1,5 @@
- media-gfx/imagemagick bzip2 cxx fftw jpeg lcms lzma openmp pango perl png svg tiff truetype wmf xml zlib corefonts djvu fontconfig fpx graphviz hdri jbig jpeg2k lqr opencl openexr postscript q32 -q8 raw   webp
+media-gfx/imagemagick bzip2 cxx fftw jpeg lcms lzma openmp pango perl png svg tiff 
+
+media-gfx/imagemagick truetype wmf xml zlib corefonts djvu fontconfig fpx graphviz hdri jbig 
+
+media-gfx/imagemagick jpeg2k lqr opencl openexr postscript q32 -q8 raw   webp

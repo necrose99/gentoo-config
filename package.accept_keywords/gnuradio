@@ -1,0 +1,6 @@
+dev-lang/swig
+dev-python/wxpython:4.0
+net-libs/libosmo-dsp
+net-wireless/gnuradio
+net-wireless/gr-iqbal
+net-wireless/soapyrtlsdr

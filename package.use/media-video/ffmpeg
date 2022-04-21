@@ -11,7 +11,7 @@ media-video/ffmpeg opus oss pic postproc samba sdl speex svg theora threads
 
 media-video/ffmpeg truetype v4l vaapi vdpau vorbis vpx 
 
-media-video/ffmpeg vulkan webp x264 x265 xvid zlib amf amrenc  
+media-video/ffmpeg vulkan webp x264 x265 xvid zlib amf amrenc  svt-av1
 
 media-video/ffmpeg  bs2b cdio chromaprint codec2 cuda fdk
 media-video/ffmpeg flite fontconfig frei0r fribidi gcrypt gme 

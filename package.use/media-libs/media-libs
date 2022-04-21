@@ -8,18 +8,5 @@ media-libs/dav1d 10bit 8bit asm  xxhash
 
 media-libs/libheif aom threads x265  gdk-pixbuf go rav1e 
 
-media-libs/opencv contribdnn
-
-media-libs/opencv contrib eigen features2d ffmpeg gphoto2 ieee1394 jpeg opencl openexr opengl openmp png 
-
-media-libs/opencv python qt5 tiff v4l vaapi webp xine 
-
-media-libs/opencv cuda  download   gdal  flags  glog gstreamer  java jpeg2k lapack  lto opencvapps  tesseract 
-
-media-libs/opencv vtk cpu_flags_x86_avx2 cpu_flags_x86_f16c cpu_flags_x86_f16c  cpu_flags_x86_avx
-
-# -threads -vtk" gtk3
-
-# media-libs/opencv -contribcvv -contribfreetype  -contribhdf (-contribovis) -contribsfm -contribxfeatures2d 
 
  

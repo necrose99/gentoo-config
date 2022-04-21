@@ -5,6 +5,9 @@ media-video/pipewire gstreamer jack-sdk lv2 pipewire-alsa
 media-video/pipewire system-service 
 media-video/pipewire zeroconf
 
+media-video/pipewire ffmpeg  sdl vulkan
+
+media-video/pipewire   sndfile
 
 
 # media-video/pipewire  jack-client
