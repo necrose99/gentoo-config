@@ -1,2 +1,4 @@
-sys-fs/exfat-utils
 sys-fs/fuse-exfat
+
+
+RDEPEND="|| ( sys-fs/exfat-utils sys-fs/exfatprogs )"

@@ -5,6 +5,9 @@ media-video/pipewire gstreamer jack-sdk lv2  flatpak
 media-video/pipewire system-service sound-server pipewire-alsa
 media-video/pipewire zeroconf gsettings modemmanager
 
+media-video/pipewire ffmpeg  sdl vulkan
+
+media-video/pipewire   sndfile
 
 
 # media-video/pipewire  jack-client

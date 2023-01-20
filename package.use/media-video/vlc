@@ -11,7 +11,7 @@ media-video/vlc theora truetype udev upnp v4l vaapi vnc wayland x264 x265 xml ze
 
 media-video/vlc aom archive aribsub chromaprint dav1d dc1394 faad
 
-media-video/vlc fdk fluidsynth gme gstreamer kate libtar libtiger linsys lirc 
+media-video/vlc fdk fluidsynth gme gstreamer kate libtar libtiger linsys lirc svg vdpau
 
 #USE="X a52 alsa bidi bluray cddb chromecast dbus dts dvbpsi dvd encode ffmpeg flac 
 #fontconfig gcrypt gnome-keyring gui ieee1394 jack jpeg libass 

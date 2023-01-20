@@ -1,0 +1,13 @@
+#/dev/sda5
+UUID=a0cb520c-8eef-4706-9b42-ade6ba8445d7 none swap defaults 0 0
+#/dev/sda4
+UUID=410267fd-20c3-48df-a951-73760cb1cf92 / btrfs defaults 0 0
+#/dev/sda3
+UUID=2d0ba34f-1f5e-42d9-9586-1e7c2173ea7e /boot ext4 defaults,noauto 0 2
+#/dev/sda1
+UUID=3250-A4C3 /boot/efi vfat defaults 0 2
+######### portage in ramdisk/ var/tmp/notmpfs for pkgs too big...
+### https://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs### 
+
+tmpfs /var/tmp         tmpfs rw,nosuid,noatime,nodev,size=4G,mode=1777 0 0
+tmpfs /var/tmp/portage tmpfs rw,nosuid,noatime,nodev,size=4G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775 0 0
