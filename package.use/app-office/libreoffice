@@ -1,0 +1,18 @@
+app-office/libreoffice accessibility* bluetooth branding clang cups dbus googledrive 
+
+app-office/libreoffice gstreamer gtk java ldap* mariadb pdfimport vulkan -base 
+
+app-office/libreoffice coinmp  eds  firebird -kde  odk  postgres  
+
+
+# LIBREOFFICE_EXTENSIONS="wiki-publisher* -nlpsolver -scripting-beanshell -scripting-javascript" 
+
+
+
+app-office/libreoffice libreoffice_extensions_scripting-javascript
+	
+app-office/libreoffice libreoffice_extensions_nlpsolver	
+
+app-office/libreoffice libreoffice_extensions_scripting-beanshell
+	
+app-office/libreoffice libreoffice_extensions_wiki-publisher

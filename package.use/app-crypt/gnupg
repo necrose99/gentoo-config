@@ -1,0 +1,5 @@
+app-crypt/gnupg  bzip2 ldap nls readline smartcard ssl 
+app-crypt/gnupg  tofu  tools  usb verify-sig  
+
+app-crypt/gnupg  tpm user-socket  wks-server
+

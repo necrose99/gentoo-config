@@ -1,0 +1,18 @@
+dev-libs/aws-sdk-cpp kinesis config elasticache  python_single_target_python3_9 
+
+
+# USE="http kinesis networkmanager rtti ssl -access-management -apigateway -appconfig 
+# -backup -batch -budgets -chime -cloud-desktop -cloud-dev -cloud-media -cloud-mobile 
+# -cloudformation -cloudfront -cloudhsm -cloudsearch -cloudwatch -cognito 
+# -config -dlm -ebs -ec2 -ecr -ecs -eks -elastic-inference -
+#  elasticache -elasticbeanstalk -elasticloadbalancing -elasticmapreduce 
+# -email -es -events -forecast -frauddetector -fsx -globalaccelerator 
+# -iot -kendra -kms -lambda -lex -license-manager -lightsail -lookoutvision 
+# machinelearning -macie -managedblockchain -marketplace -mwaa -opsworks 
+# organizations -other -outposts -personalize -polly -pulseaudio -qldb -queues -rds 
+# rekognition -resource-groups -route53 -s3 -sagemaker -secretsmanager -securityhub 
+# serverlessrepo -shield -sns -sqs -static-libs -test -textract -timestream -transcribe 
+# translate 
+# unity-build 
+# waf 
+# wellarchitected"

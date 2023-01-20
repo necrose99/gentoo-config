@@ -1,0 +1,14 @@
+media-libs/gst-plugins-bad::oiledmachine-overlay
+
+net-libs/webkit-gtk::oiledmachine-overlay
+
+sys-devel/lld:oiledmachine-overlay
+=sys-devel/lld-14::oiledmachine-overlay
+=sys-devel/lld-14.0.6::oiledmachine-overlay
+
+sys-devel/llvm::oiledmachine-overlay
+
+sys-devel/llvm::FireBurn
+sys-libs/compiler-rt-sanitizers::oiledmachine-overlay
+
+www-client/firefox::oiledmachine-overlay

@@ -1,0 +1,10 @@
+# kill python2_7 like a ghost....that wont stop haunting....
+
+dev-python/*::stefantalpalar 
+
+
+dev-lang/python::stefantalpalaru
+
+dev-libs/boost::stefantalpalaru
+
+dev-python/pyasn1::stefantalpalaru

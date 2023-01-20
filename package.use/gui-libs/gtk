@@ -1,0 +1,3 @@
+gui-libs/gtk X cups introspection wayland  broadway colord 
+#
+gui-libs/gtk ffmpeg gstreamer sysprof  vulkan

@@ -1,0 +1,17 @@
+app-emulation/wine-staging X alsa cups fontconfig gecko gphoto2 kerberos ldap mono mp3 nls openal
+
+app-emulation/wine-staging opencl opengl  perl pipelight realtime run-exes samba scanner sdl ssl
+
+app-emulation/wine-staging staging threads truetype udev udisks unwind usb v4l vkd3d vulkan xcomposite
+
+app-emulation/wine-staging xinerama capi gssapi gstreamer mingw netapi odbc 
+
+app-emulation/wine-staging osmesa pcap 
+
+#USE="X alsa cups fontconfig gecko gphoto2 kerberos ldap mono mp3 nls openal 
+#opencl opengl oss perl pipelight realtime run-exes samba scanner sdl ssl 
+#(staging) threads truetype udev udisks unwind usb v4l vkd3d vulkan xcomposite 
+#xinerama -capi -custom-cflags -dos -gssapi -gstreamer -mingw -netapi -odbc 
+# osmesa -pcap -pulseaudio (-selinux) -test"
+
+app-emulation/wine-staging -pulseaudio -oss

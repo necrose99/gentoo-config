@@ -1,0 +1,3 @@
+sci-libs/cgnslib fortran hdf5 mpi szip tools 
+
+#sci-libs/cgnslib base-scope scoping

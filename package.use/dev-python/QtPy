@@ -1,0 +1,14 @@
+dev-python/QtPy gui network  opengl printsupport pyqt5 svg xml pyqt6
+
+dev-python/QtPy  declarative designer -help -location multimedia positioning 
+
+dev-python/QtPy pyside2 sensors  serialport  speech  sql   
+
+dev-python/QtPy webchannel  webengine  websockets  widgets  x11extras  xmlpatterns 
+
+dev-python/PyQt5 bluetooth dbus declarative gui multimedia network opengl 
+
+dev-python/PyQt5 printsupport sql ssl svg testlib widgets xmlpatterns 
+dev-python/PyQt5 designer  help location webchannel websockets x11extras
+dev-python/PyQt5 positioning sensors serialport speech 
+ 

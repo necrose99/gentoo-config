@@ -1,0 +1,5 @@
+gnome-extra/libgda gnome-keyring gtk introspection ldap ssl 
+
+gnome-extra/libgda berkdb  canvas  firebird  graphviz 
+
+gnome-extra/libgda http -ava json mdb mysql oci8 -postgres  sourceview vala

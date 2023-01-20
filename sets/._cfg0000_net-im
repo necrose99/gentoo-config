@@ -1,0 +1,5 @@
+# move net-im/discord-bin net-im/discord
+net-im/discord
+net-im/skypeforlinux
+net-im/slack
+net-im/telegram-desktop

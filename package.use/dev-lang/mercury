@@ -1,0 +1,3 @@
+dev-lang/mercury readline  emacs  erlang  java  mono -profile  threads  trail profile
+
+dev-lang/mercury-extras X cairo gmp ncurses opengl ssl xml  glut  odbc  tk tommath 

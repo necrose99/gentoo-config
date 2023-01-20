@@ -1,9 +1,9 @@
 media-video/pipewire  X bluetooth echo-cancel extra ssl v4l 
 
-media-video/pipewire gstreamer jack-sdk lv2 pipewire-alsa 
+media-video/pipewire gstreamer jack-sdk lv2  flatpak
 
-media-video/pipewire system-service 
-media-video/pipewire zeroconf
+media-video/pipewire system-service sound-server pipewire-alsa
+media-video/pipewire zeroconf gsettings modemmanager
 
 
 

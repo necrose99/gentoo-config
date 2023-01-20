@@ -1,0 +1,3 @@
+#force upgrades
+=dev-lang/perl:5.34
+<=dev-lang/perl:5.34

@@ -1,0 +1,5 @@
+cross-crossdev/binutils -multilib
+cross-crossdev/gcc -multilib
+cross-crossdev/linux-headers -multilib
+cross-crossdev/glibc -multilib
+cross-crossdev/gdb -multilib

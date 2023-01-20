@@ -1,0 +1,5 @@
+cross-crossdev/binutils cross-crossdev/binutils.conf
+cross-crossdev/gcc cross-crossdev/gcc.conf
+cross-crossdev/linux-headers cross-crossdev/linux-headers.conf
+cross-crossdev/glibc cross-crossdev/glibc.conf
+cross-crossdev/gdb cross-crossdev/gdb.conf

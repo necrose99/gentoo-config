@@ -3,23 +3,23 @@
 sci-mathematics/z3  python  gmp  isabelle  
 #sci-mathematics/z3  java
 
-sys-devel/llvm gold libffi ncurses xar xml exegesis libedit z3
+sys-devel/llvm gold libffi ncurses xar xml exegesis libedit z3 shadowcallstack bolt
 
 sys-devel/llvm llvm_targets_NVPTX llvm_targets_AMDGPU llvm_targets_X86
 
 sys-devel/llvm lvm_targets_ARM llvm_targets_AArch64 llvm_targets_RISCV llvm_targets_PowerPC 
 
-sys-devel/llvm llvm_targets_ARC llvm_targets_LoongArch llvm_targets_AVR 
+sys-devel/llvm llvm_targets_ARC llvm_targets_LoongArch llvm_targets_AVR llvm_targets_SPIRV
 
 sys-devel/llvm llvm_targets_BPF  llvm_targets_CSKY  llvm_targets_Hexagon llvm_targets_Lanai 
 
 sys-devel/llvml llvm_targets_M68k llvm_targets_Mips llvm_targets_MSP430 llvm_targets_Sparc llvm_targets_SystemZ
 
-sys-devel/llvm llvm_targets_VE llvm_targets_WebAssembly llvm_targets_XCore
+sys-devel/llvm llvm_targets_VE llvm_targets_WebAssembly llvm_targets_XCore llvm_targets_DirectX 
 
+dev-libs/opencl-clang
 
-
-sys-libs/libomp cuda hwloc offload ompt
+sys-libs/libomp cuda hwloc offload ompt llvm_targets_NVPTX llvm_targets_AMDGPU
 
 sys-devel/clang USE="static-analyzer xml default-compiler-rt  default-libcxx default-lld
 
@@ -27,7 +27,7 @@ sys-devel/clang-runtime compiler-rt openmp sanitize libcxx
 
 
 
-dev-ml/llvm-ocaml  llvm_targets_NVPTX llvm_targets_AMDGPU llvm_targets_X86
+dev-ml/llvm-ocaml  llvm_targets_NVPTX llvm_targets_AMDGPU llvm_targets_X86 llvm_targets_SPIRV  llvm_targets_DirectX
 
 dev-ml/llvm-ocaml llvm_targets_ARM llvm_targets_AArch64 llvm_targets_RISCV llvm_targets_PowerPC
 

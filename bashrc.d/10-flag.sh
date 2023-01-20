@@ -148,6 +148,7 @@ FLAG_FILTER_NONGNU=(
 	'-fdevirtualize-at-ltrans'
 	'-fdevirtualize-speculatively'
 	'-fdirectives-only'
+	'-ffat-lto-objects'
 	'-fgcse*'
 	'-fgraphite*'
 	'-finline-functions'
@@ -160,11 +161,13 @@ FLAG_FILTER_NONGNU=(
 	'-flto=[0-9]*'
 	'-flto=auto'
 	'-flto=jobserver'
+	'-flto-odr-type-merging'
 	'-flto-partition=*'
 	'-flto-compression-level=*'
 	'-fmodulo*'
 	'-fno-enforce-eh-specs'
 	'-fno-ident'
+	'-fno-ipa-cp-clone'
 	'-fno-plt' # causes various runtime segfaults for clang:6 compiled code
 	'-fno-semantic-interposition'
 	'-fnothrow-opt'
@@ -174,7 +177,6 @@ FLAG_FILTER_NONGNU=(
 	'-frerun-cse-after-loop'
 	'-fsched*'
 	'-fsection-anchors'
-	'-fstack-clash-protection'
 	'-ftree*'
 	'-funsafe-loop*'
 	'-fuse-linker-plugin'
@@ -185,7 +187,10 @@ FLAG_FILTER_NONGNU=(
 	'-mfunction-return*'
 	'-mindirect-branch*'
 	'-mvectorize*'
+	'-Waggressive-loop-optimizations'
+	'-Wclobbered'
 	'-Wl,-z,retpolineplt' # does not work, currently
+	'-Wreturn-local-addr'
 )
 
 FLAG_FILTER_GNU=(
@@ -195,12 +200,17 @@ FLAG_FILTER_GNU=(
 	'-flto-jobs=*'
 	'-fopenmp=*'
 	'-frewrite-includes'
-	'-fsanitize=cfi'
+	'-fsanitize=cfi*'
 	'-fsanitize=safe-stack'
 	'-mllvm'
 	'-mretpoline*'
 	'-polly*'
 	'-Wl,-z,retpolineplt'
+)
+
+FLAG_FILTER_CLANG_LTO_DEP=(
+	'-fsanitize=cfi*'
+	'-fwhole-program-vtables'
 )
 
 FlagEval() {
@@ -581,6 +591,7 @@ FlagScanDir() {
 }
 
 FlagSetUseNonGNU() {
+	has clang ${IUSE//+} && use clang && return 0
 	case $CC$CXX in
 	*clang*)
 		return 0;;
@@ -593,6 +604,12 @@ FlagSetNonGNU() {
 	FlagSubAllFlags "${FLAG_FILTER_NONGNU[@]}"
 	FlagReplaceAllFlags '-fstack-check*' '-fstack-check'
 	# FlagAddCFlags '-flto' '-emit-llvm'
+	case " $LDFLAGS $CFLAGS $CXXFLAGS" in
+	*[[:space:]]'-flto'*)
+		;;
+	*)
+		FlagSubAllFlags "${FLAG_FILTER_CLANG_LTO_DEP[@]}";;
+	esac
 }
 
 FlagSetGNU() {

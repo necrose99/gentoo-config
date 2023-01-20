@@ -1,0 +1,5 @@
+cross-crossdev/binutils * -amd64 -~amd64
+cross-crossdev/gcc * -amd64 -~amd64
+cross-crossdev/linux-headers * -amd64 -~amd64
+cross-crossdev/glibc * -amd64 -~amd64
+cross-crossdev/gdb * ~* -amd64 -~amd64

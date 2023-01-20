@@ -1,2 +1,2 @@
 www-client/* widevine
-www-client/chromium  screencast official  component-build
+www-client/chromium  screencast official  component-build -system-png

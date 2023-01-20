@@ -1,0 +1,5 @@
+net-analyzer/netdata caps compression cups dbengine filecaps jsonc lto python xen 
+
+net-analyzer/netdata cloud ipmi kinesis mongodb mysql nfacct nodejs postgres prometheus tor
+
+net-analyzer/netdata kinesis

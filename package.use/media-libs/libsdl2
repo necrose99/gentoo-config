@@ -1,0 +1,3 @@
+media-libs/libsdl2 X alsa dbus gles2 haptic ibus jack joystick opengl oss pipewire sound threads udev video vulkan wayland xinerama
+#
+media-libs/libsdl2 fcitx4 libsamplerate xscreensaver nas
