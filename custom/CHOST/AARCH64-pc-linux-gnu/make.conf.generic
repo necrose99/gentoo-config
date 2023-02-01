@@ -1,4 +1,9 @@
-CHOST="x86_64-pc-linux-gnu"
+CHOST="aarch64-unknown-linux-gnu"
+
+ACCEPT_KEYWORDS="~arm64 arm64 **"
+
+ACCEPT_LICENSE="*"
+
 CFLAGS="${CFLAGS} -flto=thin"
 CXXFLAGS="${CXXFLAGS} -flto=thin"
 # -O2 in LDFLAGS refers to binary size optimization during linking, it is NOT related to the -O levels of the compiler          

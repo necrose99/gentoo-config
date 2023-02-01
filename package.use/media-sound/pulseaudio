@@ -1,0 +1,2 @@
+media-sound/pulseaudio -daemon bluetooth jack ofono-headset
+### pulseaudio for legacy compatability...  with pipewire

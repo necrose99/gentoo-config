@@ -1,0 +1,31 @@
+#media-video/wireplumber 
+#media-video/pipewire 
+#media-sound/pulseaudio -daemon
+
+USE="${USE} \
+	pipewire \
+	X	\
+	bluetooth \	
+	dbus	\
+	echo-cancel \
+	extra	\
+	ffmpeg	\
+	flatpak gsettings	\
+	gstreamer	\
+	jack-sdk \
+	lv2 \
+	modemmanager	\
+	pipewire-alsa\
+	sound-server	\
+	v4l	\
+	zeroconf \
+"
+
+USE="${USE} \
+	ipv6 \
+	networkmanager \
+	pulseaudio \
+	python \
+"
+### pulseaudio for legacy compatability... 
+	

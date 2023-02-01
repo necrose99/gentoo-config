@@ -1,4 +1,8 @@
 CHOST="x86_64-pc-linux-gnu"
+ACCEPT_KEYWORDS="~amd64 amd64 **"
+
+ACCEPT_LICENSE="*"
+
 CFLAGS="${CFLAGS} -flto=thin"
 CXXFLAGS="${CXXFLAGS} -flto=thin"
 # -O2 in LDFLAGS refers to binary size optimization during linking, it is NOT related to the -O levels of the compiler          
@@ -14,10 +18,8 @@ ACCEPT_LICENSE="*"
 
 source /etc/portage/custom/hardware/input/generic
 source /etc/portage/custom/hardware/video/generic
-# dlang options
-source /etc/portage/custom/make-conf-Dlang.conf
 
-#DISTDIR="/home/ftp/distfiles"
+DISTDIR="/home/ftp/distfiles"
 PORTDIR="/usr/portage"
 
 PYTHON_SINGLE_TARGET="python3_9"
