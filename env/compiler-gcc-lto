@@ -1,0 +1,11 @@
+#https://wiki.gentoo.org/wiki/Clang#GCC_fallback_environment
+#
+# $N refers to the amount of threads used during LTO, one option is to be set to the value of $(nproc)
+CFLAGS="-flto=$N -march=native -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+
+CC="gcc"
+CXX="g++"
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"
