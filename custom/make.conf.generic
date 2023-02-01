@@ -8,27 +8,34 @@ source /etc/portage/custom/hardware/video/generic
 DISTDIR="/home/ftp/distfiles"
 PORTDIR="/usr/portage"
 
-PYTHON_SINGLE_TARGET="python3_7"
-PYTHON_TARGETS="python2_7 python3_6 python3_7"
+PYTHON_SINGLE_TARGET="python3_9"
+PYTHON_TARGETS="python2_7 python3_9"
 
 L10N="en uk"
 
 VIDEO_CARDS=""
 
-USE="${USE} \
-bindist
-custom-cflags \
-custom-optimization \
-lm-sensors \
-lto \
-pgo \
-xinerama \
-zeroconf \
+FEATURES="${FEATURES} \
+	-xattr \
 "
 
 USE="${USE} \
--ipv6 \
--networkmanager \
--pulseaudio \
--python \
+	abi_x86_32 \
+	bindist \
+	custom-cflags \
+	custom-optimization \
+	dolphin \
+	gles2 \
+	lm-sensors \
+	lto \
+	wayland \
+	xinerama \
+	zeroconf \
+"
+
+USE="${USE} \
+	-ipv6 \
+	-networkmanager \
+	-pulseaudio \
+	-python \
 "

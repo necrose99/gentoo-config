@@ -1,10 +1,10 @@
 app-arch/upx
 app-benchmarks/bootchart2
 dev-db/sqlitebrowser
-dev-embedded/esptool
 dev-util/abi-compliance-checker
 dev-util/pvs-studio
 dev-vcs/gitstats
 dev-vcs/repo
 sci-electronics/kicad-meta
+sys-apps/uuu
 sys-kernel/linux-docs
