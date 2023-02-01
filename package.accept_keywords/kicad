@@ -1,4 +1,5 @@
 app-doc/kicad-doc
+app-eselect/eselect-opencascade
 media-gfx/wings
 sci-electronics/kicad
 sci-electronics/kicad-footprints
@@ -8,4 +9,5 @@ sci-electronics/kicad-symbols
 sci-electronics/kicad-templates
 sci-electronics/ngspice
 sci-libs/oce
+sci-libs/opencascade
 sci-visualization/xgraph

@@ -1,6 +1,12 @@
 dev-qt/qtmultimedia gstreamer
-kde-apps/kdenetwork-meta -telepathy
+kde-apps/kde-apps-meta pim
+kde-apps/kdenetwork-meta dropbox -telepathy
+kde-apps/kdepim-addons importwizard markdown
+kde-apps/kdeutils-meta 7zip gpg rar
+kde-apps/mailcommon designer
 kde-plasma/plasma-meta grub
 kde-plasma/powerdevil -wireless
+media-libs/freetype harfbuzz
+media-video/pipewire pipewire-alsa
 net-im/telepathy-connection-managers -irc -xmpp -zeroconf -steam
 sys-apps/xdg-desktop-portal screencast

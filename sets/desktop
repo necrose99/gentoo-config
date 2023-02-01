@@ -1,5 +1,5 @@
 app-office/libreoffice
-app-text/goldendict
+dev-java/openjdk-bin:11
 kde-apps/kde-apps-meta
 kde-apps/yakuake
 kde-misc/openofficeorg-thumbnail
@@ -7,12 +7,15 @@ kde-plasma/plasma-meta
 mail-client/thunderbird
 media-gfx/gimp
 media-gfx/xsane
+media-sound/alsa-utils
 media-sound/apulse
 media-sound/audacity
 media-sound/bluez-alsa
-media-sound/clementine
+media-sound/strawberry
 media-video/simplescreenrecorder
 media-video/smplayer
 net-ftp/filezilla
 net-misc/nextcloud-client
+net-misc/youtube-dl
 sys-block/gparted
+x11-apps/xhost

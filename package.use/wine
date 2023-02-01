@@ -1,0 +1,2 @@
+app-emulation/wine-vanilla dos -sdl
+media-libs/libsdl2 -vulkan
