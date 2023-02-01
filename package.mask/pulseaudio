@@ -1,7 +1,8 @@
-media-sound/pulseaudio 
+### re'add for compatability for now
+#media-sound/pulseaudio daemon
 
-media-libs/libpulse
+#media-libs/libpulse
 
 media-sound/pulseaudio-daemon
 
-media-sound/pulseaudio-ctl 
+#media-sound/pulseaudio-ctl 
