@@ -1,0 +1,12 @@
+#https://wiki.gentoo.org/wiki/Clang#GCC_fallback_environment 
+CC="gcc"
+CXX="g++"
+
+AR="${CHOST}-ar"
+NM="${CHOST}-nm"
+RANLIB="${CHOST}-ranlib"
+
+COMMON_FLAGS="-O2 -march=native"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-Wl,--as-needed"
