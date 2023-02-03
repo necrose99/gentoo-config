@@ -1,4 +1,4 @@
-FEATURES="${FEATURES} sccache"
+#FEATURES="${FEATURES} sccache"
 
 RUSTC_WRAPPER=/usr/bin/sccache
 SCCACHE_DIR=/var/cache/sccache
