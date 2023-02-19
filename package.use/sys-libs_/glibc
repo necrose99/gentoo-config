@@ -1,5 +1,0 @@
-sys-libs/glibc audit caps clone3 multiarch multilib nscd ssp static-libs 
-
-sys-libs/glibc suid cet compile-locales -crypt  gd -headers-only profile
-
-sys-libs/glibc systemtap static-pie

@@ -1,1 +1,0 @@
-sys-libs/libomp  cuda hwloc offload ompt  llvm_targets_NVPTX  llvm_targets_AMDGPU
