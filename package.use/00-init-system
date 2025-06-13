@@ -1,0 +1,10 @@
+#!/bin/bash
+#00-init-system
+
+if [[ -d /run/systemd/system ]]; then
+  INIT_SYSTEM="systemd"
+  export USE="${USE} systemd -elogind"
+else
+  INIT_SYSTEM="openrc"
+  export USE="${USE} openrc elogind -systemd"
+fi
