@@ -1,0 +1,22 @@
+# /etc/portage/package.use/arm64_videocards
+
+# Mali GPU support (Panfrost for Midgard/Bifrost, Panthor for newer Valhall)
+*/* video_cards_panfrost video_cards_panthor
+
+# Raspberry Pi 4 & 5 support (Broadcom V3D/VC4)
+*/* video_cards_vc4 video_cards_v3d
+
+# Nvidia support (Open-source Nouveau and Proprietary)
+*/* video_cards_nouveau video_cards_nvidia
+
+# AMD Radeon support (Modern and Legacy)
+*/* video_cards_amdgpu video_cards_radeonsi video_cards_radeon
+
+# If using a virtual machine (QEMU) on ARM64
+# */* video_cards_virtio video_cards_virgl
+
+# VMware Virtual GPU Support (vmwgfx)
+*/* video_cards_vmware 
+
+# VirtualBox Guest Additions for ARM64
+*/* video_cards_virtualbox
