@@ -2,6 +2,8 @@
 media-libs/mesa classic xa xvmc gles1 gles2 llvm lm-sensors osmesa unwind  vaapi valgrind vdpau vulkan vulkan-overlay
 media-libs/mesa opencl X d3d9  wayland zink zstd opencl classic egl gallium gbm
 
+media-libs/mesa vulkan
+
 ###
 #Cards / video_cards_ X86/64
 ##
