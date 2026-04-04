@@ -7,3 +7,6 @@ llvm-runtimes/compiler-rt-sanitizers compiler-clang
 llvm-runtimes/libunwind compiler-clang
 llvm-core/lld compiler-clang
 llvm-core/polly compiler-clang
+
+dev-lang/python polly
+# map the package you'd like to use polly with thereon.
