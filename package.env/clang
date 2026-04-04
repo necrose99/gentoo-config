@@ -1,0 +1,8 @@
+llvm-core/clang compiler-clang
+llvm-core/llvm compiler-clang
+llvm-runtimes/libcxx compiler-clang
+llvm-runtimes/libcxxabi compiler-clang
+llvm-runtimes/compiler-rt compiler-clang
+llvm-runtimes/compiler-rt-sanitizers compiler-clang
+llvm-runtimes/libunwind compiler-clang
+llvm-core/lld compiler-clang
